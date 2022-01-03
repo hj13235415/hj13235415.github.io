@@ -1,0 +1,111 @@
+	.banner{
+		width:100%;
+		height:650px;
+		background-image: url(../img/xinxiangtong.jpg);
+		background-position: center bottom;
+		background-repeat: no-repeat;
+		/*background-color: #fff;*/
+		text-align: center;
+		padding-top: 55px;
+		/*position: relative;*/
+	}
+	.banner .hutou{
+		/*position: absolute;*/
+		width:90px;
+		height:113px;
+		margin-top: 0;
+		margin-left: 50%;
+		margin-right:50%;
+		/*margin-left: */
+		background-image: url(../img/pingguohu.png);
+		background-position: center bottom;
+		background-repeat: no-repeat;
+		background-size:100% ;
+		/*background-color: #fff;*/
+		text-align: center;
+		/*padding-top: 55px;*/
+	}
+	
+	.banner h1{
+		color: #1D1D1F;
+		font-size: 56px;
+	    line-height: 1.07143;
+	    font-weight: 600;
+	    letter-spacing: -.005em;
+	    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+	    margin-top: 50px;
+	}
+	.banner h2{
+		font-size: 27px;
+	    line-height: 1.14815;
+	    font-weight: 400;
+	    letter-spacing: .008em;
+	    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+		margin-top: 6px;
+		color: #1D1D1F;
+	}
+
+	.banner p{
+		margin:6px;
+		font-size: 17px;
+		color: #888;
+	}
+	.banner .link a{
+		font-size: 21px;
+	    line-height: 1.38105;
+	    font-weight: 400;
+	    letter-spacing: .011em;
+	    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+		color: #6bf;
+		text-decoration: none;
+	}
+	.banner .link a:hover{
+		text-decoration: underline;
+	}
+	.banner .link a:nth-child(3){
+		margin-left: 26px;
+	}
+	.banner .link{
+		color: #6bf;
+		font-family: "SF Pro Icons";
+	}
+	.banner-iphone{
+		width:100%;
+		height:624px;
+		background-image: url(../img/iphone13pro.jpg);
+		background-position: center bottom;
+		background-repeat: no-repeat;
+		/*background-color: #fff;*/
+		text-align: center;
+		/*padding-top: 55px;*/
+	}
+	.iphone13{
+		background-image: url(../img/iphone13.jpg);
+	}
+	.banner-iphone h1{
+		color: #1D1D1F;
+		font-size: 56px;
+	    line-height: 1.07143;
+	    font-weight: 600;
+	    letter-spacing: -.005em;
+	    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+	    padding-top: 50px;
+	}
+	.banner-iphone h2{
+		font-size: 27px;
+	    line-height: 1.14815;
+	    font-weight: 400;
+	    letter-spacing: .008em;
+	    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+		padding-top: 21px;
+		/*color: #1D1D1F;*/
+	}
+	.banner-iphone .link a{
+		font-size: 21px;
+	    line-height: 1.38105;
+	    font-weight: 400;
+	    letter-spacing: .011em;
+	    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+		color: #2997FF;
+		text-decoration: none;
+	}
