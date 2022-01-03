@@ -1,0 +1,228 @@
+
+/*左侧滑动栏*/
+	li{
+		cursor: pointer;
+	}
+	.le_slide{
+		position: fixed;
+		top:169px;
+		left:10px;
+		width: 34px;
+		height: 252px;
+		/*background: #918888;*/
+		z-index: 2;
+		display: none;
+		
+	}
+	.le_slide >#di{
+		position: absolute;
+		z-index: 3;
+		width: 34px;
+		height: 34px;
+		background: #5E4A4A;
+		top:210px;
+		font-size: 12px;
+		color: #fff;
+		line-height: 34px;
+		text-align: center;
+	}
+	.le_slide >ul{
+		width: 34px;
+		height: 253px;
+		position: absolute;
+	}
+	.le_slide >ul >li{
+		width: 34px;
+		height: 41px;
+		border-bottom: 1px solid #ccc;
+		background: #918888;
+		position: relative;
+	}
+	.le_slide >ul >li >a{
+		text-decoration: none;
+		width: 24px;
+		height: 30px;
+		font-size: 12px;
+		color:#fff;
+		position: absolute;
+		top:4px;
+		left:5px;
+		text-align: center;
+	}
+	.le_slide >ul >li:nth-child(6) >a{
+		top:17px;
+	}
+	/*中间导航栏*/
+	.mid_slide{
+		position: fixed;;
+		width:1349px;
+		height: 50px;
+		background: #fff;
+		top:0px;
+		z-index: 2;
+		border-bottom: 2px solid #F10214;
+		display: none;
+	}
+	.mid_slide >a{
+		width:125px;
+		height: 40px;
+		background: url(../image/logo_mid.png);
+		position: absolute;
+		top:5px;
+		left:90px;
+		text-decoration:none;
+		z-index: 3;
+	}
+	.mid_slide >.mid_search{
+		width: 550px;
+		height: 35px;
+		background: #f00;
+		position: absolute;
+		top:7px;
+		left:400px;
+	}
+	.mid_slide >.mid_search >input{
+		width: 500px;
+		height: 35px;
+		border:0;
+		background: #EFEFEF;
+	}
+	.mid_slide >.mid_search >button{
+		width: 50px;
+		height: 35px;
+		background: #F10215;
+		position: absolute;
+		border: 0;
+	}
+	/*相机图标*/
+	.mid_slide >.mid_search >b{
+		width:19px;
+		height: 15px;
+		position: absolute;
+		background: url(../image/sprite-photo-search.png);
+    	background-position: 0px 0px;
+    	top:10px;
+    	left:470px;
+	}
+	.mid_slide >.mid_search >i{
+		width: 21px;
+	    height: 21px;
+	    /*background: #0f0;*/
+	    position: absolute;
+	    top: 7px;
+	    left: 515px;
+	}
+	/*右侧滑动栏*/
+	.ri_slide{
+		width:35px;
+		height: 215px;
+		/*background: #f00;*/
+		position: fixed;
+		top:200px;
+		right: 0px;
+		z-index: 2;
+	}
+	.ri_slide >ul >li{
+		position: relative;
+		width: 35px;
+		height: 35px;
+		/*background: #7A6E6E;*/
+		margin-top:1px;
+		/*border-radius: 5px;*/
+		z-index: 10;
+	}
+	.ri_slide >ul >li >p{
+		width: 35px;
+		height: 35px;
+		position: absolute;
+		background: #7A6E6E;
+		/*background: #C81623;*/
+		border-radius: 5px;
+		z-index: 4;
+	}
+	.ri_slide >ul >li >div{
+		width:65px;
+		height: 35px;
+		position: absolute;
+		left:30px; /*到-59*/
+		background: #C81623;
+		font-size: 12px;
+		line-height: 35px;
+		text-align: center;
+		border-radius: 5px;
+		z-index: 3;
+	}
+	.ri_slide >ul >li >p >i{
+		position: absolute;
+		width: 35px;
+		height: 35px;
+		background: url(../image/toolbars.png);
+		background-position: -88px -175px;
+
+	}
+	.ri_slide >ul >li:nth-child(2) >p >i{
+		background-position: -50px 0;
+	}
+	.ri_slide >ul >li:nth-child(3) >p >i{
+		background-position: -50px -50px;
+	}
+	.ri_slide >ul >li:nth-child(4) >p >i{
+		background-position: -50px -100px;
+	}
+	.ri_slide >ul >li:nth-child(5) >p >i{
+		background-position: -190px -150px;
+	}
+	.ri_slide >ul >li:nth-child(6) >p >i{
+		background-position: -50px -150px;
+	}
+	/*右侧底部滑动栏*/
+	.rto_slide{
+		width: 35px;
+		height: 71px;
+		/*background: #f00;*/
+		position: fixed;
+		right: 1px;
+		top:500px;
+		z-index: 4;
+	}
+	.rto_slide >ul >li{
+		position: relative;
+		width: 35px;
+		height: 35px;
+		/*background: #7A6E6E;*/
+		margin-top:1px;
+		/*border-radius: 5px;*/
+		z-index: 10;
+	}
+	.rto_slide >ul >li >p{
+		width: 35px;
+		height: 35px;
+		position: absolute;
+		background: #7A6E6E;
+		/*background: #C81623;*/
+		border-radius: 5px;
+		z-index: 4;
+	}
+	.rto_slide >ul >li >div{
+		width:65px;
+		height: 35px;
+		position: absolute;
+		left:30px; /*到-59*/
+		background: #C81623;
+		font-size: 12px;
+		line-height: 35px;
+		text-align: center;
+		border-radius: 5px;
+		z-index: 3;
+	}
+	.rto_slide >ul >li >p >i{
+		position: absolute;
+		width: 35px;
+		height: 35px;
+		background: url(../image/toolbars.png);
+		background-position: -50px -250px;
+
+	}
+	.rto_slide >ul >li:nth-child(2) >p >i{
+		background-position: -50px -300px;
+	}

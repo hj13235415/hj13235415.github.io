@@ -1,0 +1,2182 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8">
+	<title>京东</title>
+	<link rel="stylesheet" href="./css/slide.css">
+	<link rel="stylesheet" href="./css/header.css">
+	<link rel="stylesheet" href="./css/main.css">
+	<link rel="stylesheet" href="./css/footer.css">
+
+	<link rel="stylesheet" href="./css/iconfont.css">
+	<script src="./jquery/jquery.min.js"></script>
+</head>
+<body>
+	<!-- 右侧边线条 -->
+	<div class="jdright"></div>
+	<!-- 左侧滑动栏 -->
+	<div class="le_slide">
+		<ul>
+			<li><a href="javascript:;">享生活</a></li>
+			<li><a href="javascript:;">电脑数码</a></li>
+			<li><a href="javascript:;">玩3C</a></li>
+			<li><a href="javascript:;">电脑数码</a></li>
+			<li><a href="javascript:;">玩3C</a></li>
+		</ul>
+		<div id="di">顶层</div>
+	</div>
+	<!-- 右侧滑动栏 -->
+	<div class="ri_slide">
+		<ul>
+			<li>
+				<p><i></i></p>
+				<div>京东会员</div>
+			</li>
+			<li>
+				<p><i></i></p>
+				<div>京东会员</div>
+			</li>
+			<li>
+				<p><i></i></p>
+				<div>京东会员</div>
+			</li>
+			<li>
+				<p><i></i></p>
+				<div>京东会员</div>
+			</li>
+			<li>
+				<p><i></i></p>
+				<div>京东会员</div>
+			</li>
+			<li>
+				<p><i></i></p>
+				<div>京东会员</div>
+			</li>
+		</ul>
+	</div>
+	<!-- 滑动显示的头栏 -->
+	<div class="mid_slide">
+		<a href="javascript:;"></a>
+		<div class="mid_search">
+			<input type="text">
+			<button></button>
+			<b></b>
+			<i class="iconfont icon-sousuo"></i>
+		</div>`
+	</div>
+	<!-- 右侧底部滑动栏 -->
+	<div class="rto_slide">
+		<ul>
+			<li>
+				<p><i></i></p>
+				<div>顶部</div>
+			</li>
+			<li>
+				<p><i></i></p>
+				<div>反馈</div>
+			</li>
+		</ul>
+	</div>
+	<!-- 快捷方式 -->
+	<div class="shortcut">
+		<span id="place">北京</span>
+		<i class="iconfont icon-weizhixiao"></i>
+		<ul class="ul_place">
+			<li>北京</li>
+			<li>上海</li>
+			<li>天津</li>
+			<li>重重庆</li>
+			<li>河北</li>
+			<li>山西</li>
+			<li>河南</li>
+			<li>辽宁</li>
+			<li>吉林</li>
+			<li>黑龙江</li>
+			<li>内蒙古</li>
+			<li>江苏</li>
+			<li>山东</li>
+			<li>安徽</li>
+			<li>浙江</li>
+			<li>福建</li>
+			<li>湖北</li>
+			<li>湖南</li>
+			<li>广东</li>
+			<li>广西</li>
+			<li>江西</li>
+			<li>四川</li>
+			<li>海南</li>
+			<li>贵州</li>
+			<li>云南</li>
+			<li>西藏</li>
+			<li>陕西</li>
+			<li>甘肃</li>
+			<li>青海</li>
+			<li>宁夏</li>
+			<li>新疆</li>
+			<li>港澳</li>
+			<li>台湾</li>
+			<li>钓鱼岛</li>
+			<li>海外</li>
+		</ul>
+		<ul class="ul_shortcut">
+			<li>
+				<a href="javascript:;">您好,请登录</a>
+				<a href="javascript:;">免费注册</a>
+			</li>
+			<li>|</li>
+			<li>我的订单</li>
+			<li>|</li>
+			<li class="ul_shortcut_my">我的京东</li>
+			<li>|</li>
+			<li>京东会员</li>
+			<li>|</li>
+			<li>企业采购</li>
+			<li>|</li>
+			<li class="ul_shortcut_ser">客户服务</li>
+			<li>|</li>
+			<li class="ul_shortcut_web">网站导航</li>
+			<li>|</li>
+			<li class="pho_jd">手机京东</li>
+		</ul>
+		<!-- 我的京东的隐藏部分 -->
+		<div class="ul_shortcut_my_m">
+			<ul>
+				<li>待处理订单</li>
+				<li>消息</li>
+				<li>返修退换货</li>
+				<li>我的问答</li>
+				<li>降价商品</li>
+				<li>我的关注</li>
+			</ul>
+			<ul>
+				<li>我的京豆</li>
+				<li>我的优惠券</li>
+				<li>我的白条</li>
+				<li>我的理财</li>
+			</ul>	
+		</div>
+		<!-- 客户服务的隐藏部分 -->
+		<div class="ul_shortcut_ser_details">
+			<span>客户</span>
+			<ul class="ul_shortcut_ser_details_1">
+				<li>帮助中心</li>
+				<li>售后服务</li>
+				<li>在线客服</li>
+				<li>意见建议</li>
+				<li>电话客服</li>
+				<li>客服邮箱</li>
+				<li>金融咨询</li>
+				<li>售全球客服</li>
+			</ul>
+			<span>商户</span>
+			<ul class="ul_shortcut_ser_details_2">
+				<li>合作招商</li>
+				<li>京东商学院</li>
+				<li>商家后台</li>
+				<li>京麦工作台</li>
+				<li>商家帮助</li>
+				<li>规则平台</li>
+			</ul>
+		</div>
+		<!-- 网站导航隐藏的内容 -->
+		<div class="ul_shortcut_web_details">
+			<ul class="ul_shortcut_web_details_theme">
+			<span>特色主题</span>
+				<li>京东会员</li>
+				<li>京东会员</li>
+				<li>京东会员</li>
+				<li>京东会员</li>
+				<li>京东会员</li>
+				<li>京东会员</li>
+				<li>京东会员</li>
+				<li>京东会员</li>
+				<li>京东会员</li>
+				<li>京东会员</li>
+				<li>京东会员</li>
+				<li>京东会员</li>
+				<li>京东会员</li>
+				<li>京东会员</li>
+				<li>京东会员</li>
+				<li>京东会员</li>
+				<li>京东会员</li>
+				<li>京东会员</li>
+				<li>京东会员</li>
+				<li>京东会员</li>
+			</ul>
+			
+			<ul class="ul_shortcut_web_details_industry">
+			<span>行业频道</span>
+				<li>手机</li>
+				<li>手机</li>
+				<li>手机</li>
+				<li>手机</li>
+				<li>手机</li>
+				<li>手机</li>
+				<li>手机</li>
+				<li>手机</li>
+				<li>手机</li>
+				<li>手机</li>
+				<li>手机</li>
+				<li>手机</li>
+				<li>手机</li>
+				<li>手机</li>
+				<li>手机</li>
+			</ul>
+			
+			<ul class="ul_shortcut_web_details_service">
+			<span>生活服务</span>
+				<li>京东到家</li>
+				<li>京东到家</li>
+				<li>京东到家</li>
+				<li>京东到家</li>
+				<li>京东到家</li>
+				<li>京东到家</li>
+				<li>京东到家</li>
+				<li>京东到家</li>
+				<li>京东到家</li>
+				<li>京东到家</li>
+				<li>京东到家</li>
+				<li>京东到家</li>
+				<li>京东到家</li>
+				<li>京东到家</li>
+				<li>京东到家</li>
+			</ul>
+			
+			<ul class="ul_shortcut_web_details_more">
+			<span>更多精选</span>
+				<li>游戏社区</li>
+				<li>游戏社区</li>
+				<li>游戏社区</li>
+				<li>游戏社区</li>
+				<li>游戏社区</li>
+				<li>游戏社区</li>
+				<li>游戏社区</li>
+				<li>游戏社区</li>
+				<li>游戏社区</li>
+				<li>游戏社区</li>
+				<li>游戏社区</li>
+				<li>游戏社区</li>
+				<li>游戏社区</li>
+				<li>游戏社区</li>
+			</ul>
+		</div>
+		<div class="pho_jd_details">
+			<div class="pho_jd_details_top">
+				<img src="./image/jd1.png" alt="">
+				<a href="javascript:;">手机京东</a>
+				<p>新人专享大礼包</p>
+				<p>
+					<a href="javascript:;"></a>
+					<a href="javascript:;"></a>
+					<a href="javascript:;"></a>
+				</p>
+			</div>
+			<div class="pho_jd_details_top">
+				<img src="./image/jd2.jpg" alt="">
+				<a href="javascript:;">手机京东</a>
+				<p>新人专享大礼包</p>
+				<p>
+					<a href="javascript:;"></a>
+					<a href="javascript:;"></a>
+					<a href="javascript:;"></a>
+				</p>
+			</div>
+			<div class="pho_jd_details_top">
+				<img src="./image/jd3.jpg" alt="">
+				<a href="javascript:;">手机京东</a>
+				<p>新人专享大礼包</p>
+				<p>
+					<a href="javascript:;">1</a>
+					<a href="javascript:;">2</a>
+					<a href="javascript:;">3</a>
+				</p>
+			</div>
+		</div>
+	</div>
+	<!-- 头部 -->
+	<div class="header">
+		<!-- 京东logo -->
+		<a href="" id="logo"></a>
+		<div class="search">
+			<input type="text">
+			<b></b>
+			<i class="iconfont icon-sousuo"></i>
+		</div>
+		<div class="car">
+			<i></i>
+			<a href="javascript:;">我的购物车</a>
+			<b id="top-right">0</b>
+			<div id="car_details">
+				<i></i><span>购物车中还没有商品，赶紧选购吧！</span>
+			</div>
+		</div>
+		<!-- 搜索框下方的热词 -->
+		<div class="hotwords">
+			<a href="javascript:;">320-200</a>
+			<a href="javascript:;">320-200</a>
+			<a href="javascript:;">320-200</a>
+			<a href="javascript:;">320-200</a>
+			<a href="javascript:;">320-200</a>
+			<a href="javascript:;">320-200</a>
+			<a href="javascript:;">320-200</a>
+		</div>
+		<div class="nav">
+			<ul>
+				<li>秒杀</li>
+				<li>秒杀</li>
+				<li>秒杀</li>
+				<li>秒杀</li>
+				<li>秒杀</li>
+				<li>秒杀</li>
+				<li>秒杀</li>
+				<li>秒杀</li>
+				<li>秒杀</li>
+				<li>秒杀</li>
+			</ul>
+		</div>
+		<div class="foo"></div>
+	</div>
+	<div class="Navigation">
+		<div class="Navigation_left">
+			<ul>
+				<li>
+					<a href="javascript:;">电脑</a>
+					/
+					<a href="javascript:;">手机</a>
+				</li>
+				<li>
+					<a href="javascript:;">电脑</a>
+					/
+					<a href="javascript:;">手机</a>
+				</li>
+				<li>
+					<a href="javascript:;">电脑</a>
+					/
+					<a href="javascript:;">手机</a>
+				</li>
+				<li>
+					<a href="javascript:;">电脑</a>
+					/
+					<a href="javascript:;">手机</a>
+				</li>
+				<li>
+					<a href="javascript:;">电脑</a>
+					/
+					<a href="javascript:;">手机</a>
+				</li>
+				<li>
+					<a href="javascript:;">电脑</a>
+					/
+					<a href="javascript:;">手机</a>
+				</li>
+				<li>
+					<a href="javascript:;">电脑</a>
+					/
+					<a href="javascript:;">手机</a>
+				</li>
+				<li>
+					<a href="javascript:;">电脑</a>
+					/
+					<a href="javascript:;">手机</a>
+				</li>
+				<li>
+					<a href="javascript:;">电脑</a>
+					/
+					<a href="javascript:;">手机</a>
+				</li>
+				<li>
+					<a href="javascript:;">电脑</a>
+					/
+					<a href="javascript:;">手机</a>
+				</li>
+				<li>
+					<a href="javascript:;">电脑</a>
+					/
+					<a href="javascript:;">手机</a>
+				</li>
+				<li>
+					<a href="javascript:;">电脑</a>
+					/
+					<a href="javascript:;">手机</a>
+				</li>
+				<li>
+					<a href="javascript:;">电脑</a>
+					/
+					<a href="javascript:;">手机</a>
+				</li>
+				<li>
+					<a href="javascript:;">电脑</a>
+					/
+					<a href="javascript:;">手机</a>
+				</li>
+				<li>
+					<a href="javascript:;">电脑</a>
+					/
+					<a href="javascript:;">手机</a>
+				</li>
+				<li>
+					<a href="javascript:;">电脑</a>
+					/
+					<a href="javascript:;">手机</a>
+				</li>
+			</ul>
+			<!-- 手机栏 -->
+			<div class="pho_details">
+				<div class="pho_nav">
+					<ul>
+						<li>手机频道 ></li>
+						<li>手机频道 ></li>
+						<li>手机频道 ></li>
+						<li>手机频道 ></li>
+						<li>手机频道 ></li>
+						<li>手机频道 ></li>
+					</ul>
+				</div>
+				<div class="pho_nav_one cbox">
+					<span>手机通讯 ></span>
+					<ul>
+						<li>手机维修</li>
+						<li>手机维修</li>
+						<li>手机维修</li>
+						<li>手机维修</li>
+						<li>手机维修</li>
+						<li>手机维修</li>
+					</ul>
+				</div>
+				<div class="pho_nav_two cbox">
+					<span>手机通讯 ></span>
+					<ul>
+						<li>手机维修</li>
+						<li>手机维修</li>
+						<li>手机维修</li>
+						<li>手机维修</li>
+						<li>手机维修</li>
+						<li>手机维修</li>
+					</ul>
+				</div>
+				<div class="pho_nav_three cbox">
+					<span>手机通讯 ></span>
+					<ul>
+						<li>手机维修</li>
+						<li>手机维修</li>
+						<li>手机维修</li>
+						<li>手机维修</li>
+						<li>手机维修</li>
+						<li>手机维修</li>
+
+					</ul>
+				</div>
+				<div class="pho_nav_four cbox">
+					<span>手机通讯 ></span>
+					<ul>
+						<li>手机维修</li>
+						<li>手机维修</li>
+						<li>手机维修</li>
+						<li>手机维修</li>
+						<li>手机维修</li>
+						<li>手机维修</li>
+					</ul>
+				</div>
+				<div class="pho_nav_five cbox">
+					<span>手机通讯 ></span>
+					<ul>
+						<li>手机维修</li>
+						<li>手机维修</li>
+						<li>手机维修</li>
+						<li>手机维修</li>
+						<li>手机维修</li>
+						<li>手机维修</li>
+					</ul>
+				</div>
+				<div class="pho_nav_six cbox">
+					<span>手机通讯 ></span>
+					<ul>
+						<li>手机维修</li>
+						<li>手机维修</li>
+						<li>手机维修</li>
+						<li>手机维修</li>
+						<li>手机维修</li>
+						<li>手机维修</li>
+					</ul>
+				</div>
+				<div class="pho_nav_seven cbox">
+					<span>手机通讯 ></span>
+					<ul>
+						<li>手机维修</li>
+						<li>手机维修</li>
+						<li>手机维修</li>
+						<li>手机维修</li>
+						<li>手机维修</li>
+						<li>手机维修</li>
+					</ul>
+				</div>
+				<div class="pho_pic">
+					<img src="./image/ap.jpg" alt="">
+					<img src="./image/op.jpg" alt="">
+					<img src="./image/ho.jpg" alt="">
+					<img src="./image/mi.jpg" alt="">
+					<img src="./image/ca.jpg" alt="">
+					<img src="./image/ji.png" alt="">
+					<img src="./image/ph.jpg" alt="">
+					<img src="./image/te.jpg" alt="">
+					<img id="pho_new" src="./image/new.jpg" alt="">
+					<img id="pho_cool" src="./image/cool.jpg" alt="">
+				</div>
+			</div>
+		</div>
+		<div class="Navigation_mid">
+			<div class="Navigation_mid_au">
+				<ul id="Navigation_mid_au_pic">
+					<li>
+						<img src="./image/bg1.jpg" alt="">
+					</li>
+					<li>
+						<img src="./image/bg2.jpg" alt="">
+					</li>
+					<li>
+						<img src="./image/bg3.jpg" alt="">
+					</li>
+					<li>
+						<img src="./image/bg4.jpg" alt="">
+					</li>
+					<li>
+						<img src="./image/bg5.jpg" alt="">
+					</li>
+					<li>
+						<img src="./image/bg6.jpg" alt="">
+					</li>
+					<li>
+						<img src="./image/bg7.jpg" alt="">
+					</li>
+				</ul>
+				<ul class="img_index">
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+				<div id="turn_left"><</div>
+				<div id="turn_right">></div>
+			</div>
+			<div class="Navigation_mid_left">
+				<a href="javascript:;"><img src="./image/bg8.jpg" alt=""></a>
+			</div>
+			<div class="Navigation_mid_right">
+				<a href="javascript:;"><img src="./image/bg9.jpg" alt=""></a>
+			</div>
+		</div>
+		<div class="Navigation_right">
+			<div class="User">
+				<div class="User_pic">
+					<i id="User_pic_mar">
+						<i id="User_pic_head"></i>
+					</i>
+					<span>Hi,欢迎来到京东</span>
+					<p><a href="javascript:;">登录</a><a href="javascript:;">注册</a></p>
+				</div>
+				<a id="User_new" href="">新人福利</a>
+				<a id="User_old" href="">PLUS会员</a>
+			</div>
+			<div class="Sale">
+				<!-- 促销公告栏 -->
+				<div class="Sale_more">
+					<a href="javascript:;">促销</a>|<a href="javascript:;">公告</a> <a href="javascript:;">更多</a>
+					<div id="lines"></div>
+				</div>
+				<div class="Sale_details" id="Sale_details1">
+					<ul>
+						<li>中国宝宝中国WE</li>
+						<li>家具建材领券最高减1000</li>
+						<li>疯狂11号抢911电脑神券</li>
+						<li>图书勋章日320减200</li>
+					</ul>
+				</div>
+				<div class="Sale_details" id="Sale_details2">
+					<ul>
+						<li>中国宝宝中国WE</li>
+						<li>家具建材领券最高减1000</li>
+						<li>疯狂11号抢911电脑神券</li>
+						<li>图书勋章日320减200</li>
+					</ul>
+				</div>
+			</div>
+			<div class="service_entry">
+				<ul>
+					<li>
+						<i></i>
+						<span>游戏</span>
+					</li>
+					<li>
+						<i></i>
+						<span>游戏</span>
+					</li>
+					<li>
+						<i></i>
+						<span>游戏</span>
+					</li>
+					<li>
+						<i></i>
+						<span>游戏</span>
+					</li>
+					<li>
+						<i></i>
+						<span>游戏</span>
+					</li>
+					<li>
+						<i></i>
+						<span>游戏</span>
+					</li>
+					<li>
+						<i></i>
+						<span>游戏</span>
+					</li>
+					<li>
+						<i></i>
+						<span>游戏</span>
+					</li>
+					<li>
+						<i></i>
+						<span>游戏</span>
+					</li>
+					<li>
+						<i></i>
+						<span>游戏</span>
+					</li>
+					<li>
+						<i></i>
+						<span>游戏</span>
+					</li>
+					<li>
+						<i></i>
+						<span>游戏</span>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!-- main.css -->
+	<div class="main">
+		<!-- 京东秒杀 -->
+		<div class="timer_go">
+			<!-- 秒伤的边角 -->
+			<i id="timer_horn"></i>
+			<!-- 秒杀的时钟图标 -->
+			<i id="timer_clock"></i>
+			<!-- 京东秒杀的标题 -->
+			<h3 id="timer_tit">京东秒杀</h3>
+			<a href="javascript:;">总有你想不到的低价<i></i></a>
+			<div class="timer_now">
+				<span>当前场次</span>
+				<div class="timing">
+					<div class="timer_eve" id="timer_hou">
+					00
+					</div>
+					<div class="timer_fen" id="timer_fen_one">:</div>
+					<div class="timer_eve" id="timer_min">00</div>
+					<div class="timer_fen" id="timer_fen_two">:</div>
+					<div class="timer_eve" id="timer_sec">00</div>
+				</div>
+				<span id="timer_over">后结束抢购</span>
+			</div>
+		</div>
+		<!-- 秒杀物品 -->
+		<div class="timer_modity">
+			<!-- 点击移动图片 -->
+			<div class="clothes">
+				<ul id="clothes_right">
+					<li>
+						<img src="./image/ys1.jpg" alt="">
+						<p>橙派 i7 7700/GTX1060 6G 游戏台式电脑主机/DIY组装机</p>
+						<div class="price">
+							<i>¥</i><span>1599.00</span>&nbsp;&nbsp;&nbsp;¥<del>1699.00</del>
+						</div>
+					</li>
+					<li>
+						<img src="./image/ys2.jpg" alt="">
+						<p>橙派 i7 7700/GTX1060 6G 游戏台式电脑主机/DIY组装机</p>
+						<div class="price">
+							<i>¥</i><span>1599.00</span>&nbsp;&nbsp;&nbsp;¥<del>1699.00</del>
+						</div>
+					</li>
+					<li>
+						<img src="./image/ys3.jpg" alt="">
+						<p>橙派 i7 7700/GTX1060 6G 游戏台式电脑主机/DIY组装机</p>
+						<div class="price">
+							<i>¥</i><span>1599.00</span>&nbsp;&nbsp;&nbsp;¥<del>1699.00</del>
+						</div>
+					</li>
+					<li>
+						<img src="./image/ys4.jpg" alt="">
+						<p>橙派 i7 7700/GTX1060 6G 游戏台式电脑主机/DIY组装机</p>
+						<div class="price">
+							<i>¥</i><span>1599.00</span>&nbsp;&nbsp;&nbsp;¥<del>1699.00</del>
+						</div>
+					</li>
+					<li>
+						<img src="./image/ys5.jpg" alt="">
+						<p>橙派 i7 7700/GTX1060 6G 游戏台式电脑主机/DIY组装机</p>
+						<div class="price">
+							<i>¥</i><span>1599.00</span>&nbsp;&nbsp;&nbsp;¥<del>1699.00</del>
+						</div>
+					</li>
+				</ul>
+				<ul id="clothes_left">
+					<li>
+						<img src="./image/ys1.jpg" alt="">
+						<p>橙派 i7 7700/GTX1060 6G 游戏台式电脑主机/DIY组装机</p>
+						<div class="price">
+							<i>¥</i><span>1599.00</span>&nbsp;&nbsp;&nbsp;¥<del>1699.00</del>
+						</div>
+					</li>
+					<li>
+						<img src="./image/ys2.jpg" alt="">
+						<p>橙派 i7 7700/GTX1060 6G 游戏台式电脑主机/DIY组装机</p>
+						<div class="price">
+							<i>¥</i><span>1599.00</span>&nbsp;&nbsp;&nbsp;¥<del>1699.00</del>
+						</div>
+					</li>
+					<li>
+						<img src="./image/ys3.jpg" alt="">
+						<p>橙派 i7 7700/GTX1060 6G 游戏台式电脑主机/DIY组装机</p>
+						<div class="price">
+							<i>¥</i><span>1599.00</span>&nbsp;&nbsp;&nbsp;¥<del>1699.00</del>
+						</div>
+					</li>
+					<li>
+						<img src="./image/ys4.jpg" alt="">
+						<p>橙派 i7 7700/GTX1060 6G 游戏台式电脑主机/DIY组装机</p>
+						<div class="price">
+							<i>¥</i><span>1599.00</span>&nbsp;&nbsp;&nbsp;¥<del>1699.00</del>
+						</div>
+					</li>
+					<li>
+						<img src="./image/ys5.jpg" alt="">
+						<p>橙派 i7 7700/GTX1060 6G 游戏台式电脑主机/DIY组装机</p>
+						<div class="price">
+							<i>¥</i><span>1599.00</span>&nbsp;&nbsp;&nbsp;¥<del>1699.00</del>
+						</div>
+					</li>
+				</ul>
+				<ul id="clothes_inleft">
+					<li>
+						<img src="./image/ys1.jpg" alt="">
+						<p>橙派 i7 7700/GTX1060 6G 游戏台式电脑主机/DIY组装机</p>
+						<div class="price">
+							<i>¥</i><span>1599.00</span>&nbsp;&nbsp;&nbsp;¥<del>1699.00</del>
+						</div>
+					</li>
+					<li>
+						<img src="./image/ys2.jpg" alt="">
+						<p>橙派 i7 7700/GTX1060 6G 游戏台式电脑主机/DIY组装机</p>
+						<div class="price">
+							<i>¥</i><span>1599.00</span>&nbsp;&nbsp;&nbsp;¥<del>1699.00</del>
+						</div>
+					</li>
+					<li>
+						<img src="./image/ys3.jpg" alt="">
+						<p>橙派 i7 7700/GTX1060 6G 游戏台式电脑主机/DIY组装机</p>
+						<div class="price">
+							<i>¥</i><span>1599.00</span>&nbsp;&nbsp;&nbsp;¥<del>1699.00</del>
+						</div>
+					</li>
+					<li>
+						<img src="./image/ys4.jpg" alt="">
+						<p>橙派 i7 7700/GTX1060 6G 游戏台式电脑主机/DIY组装机</p>
+						<div class="price">
+							<i>¥</i><span>1599.00</span>&nbsp;&nbsp;&nbsp;¥<del>1699.00</del>
+						</div>
+					</li>
+					<li>
+						<img src="./image/ys5.jpg" alt="">
+						<p>橙派 i7 7700/GTX1060 6G 游戏台式电脑主机/DIY组装机</p>
+						<div class="price">
+							<i>¥</i><span>1599.00</span>&nbsp;&nbsp;&nbsp;¥<del>1699.00</del>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div class="to_le"></div>
+			<div class="to_ri"></div>
+			<!-- 自动轮播图片 -->
+			<div class="au_clothes">
+				<div id="au_left"><i></i></div>
+				<div id="au_right"><i></i></div>
+				<ul>
+					<li></li>
+					<li></li>
+				</ul>
+			</div>
+		</div>
+		<!-- 发现好货 -->
+		<div class="good_modity">
+			<div class="find_mod">
+				<div class="find_inn">
+					<i></i>
+					<h3>发现好货</h3>
+					<span>发现品质生活<i></i></span>
+				</div>
+				<!-- 手机物品栏 -->
+				<div class="find_box">
+					<div class="find_list">
+						<ul>
+							<li>
+								<a href="####"></a>
+								<p>小米MIX 全网通手机</p>
+								<img src="./image/mod1.jpg" alt="">
+							</li>
+							<li>
+								<a href="####"></a>
+								<p>小米MIX 全网通手机</p>
+								<img src="./image/mod2.jpg" alt="">
+							</li>
+							<li>
+								<a href="####"></a>
+								<p>小米MIX 全网通手机</p>
+								<img src="./image/mod3.jpg" alt="">
+							</li>
+							<li>
+								<a href="####"></a>
+								<p>小米MIX 全网通手机</p>
+								<img src="./image/mod4.jpg" alt="">
+							</li>
+							<li>
+								<a href="####"></a>
+								<p>小米MIX 全网通手机</p>
+								<img src="./image/mod5.jpg" alt="">
+							</li>
+							<li>
+								<a href="####"></a>
+								<p>小米MIX 全网通手机</p>
+								<img src="./image/mod6.jpg" alt="">
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="buy_mod">
+				<div class="find_inn">
+					<i></i>
+					<h3>会买专辑</h3>
+					<span>甄选优质好物<i></i></span>
+				</div>
+				<!-- 物品列表 -->
+				<div class="buy_list">
+					<!-- 第一页物品栏 -->
+					<div class="list_mod" id="list_mod_one">
+						<div class="list_mod_top">
+						<p>告别大学单身？你可能还差这些科技潮品</p>
+							<img src="./image/buy1.jpg" alt="">
+							<img src="./image/buy2.jpg" alt="">
+							<img src="./image/buy3.jpg" alt="">
+						</div>
+						<div class="list_mod_top" id="list_mod_buttom">
+						<p>告别大学单身？你可能还差这些科技潮品</p>
+							<img src="./image/buy4.jpg" alt="">
+							<img src="./image/buy5.jpg" alt="">
+							<img src="./image/buy6.jpg" alt="">
+						</div>
+					</div>
+					<!-- 第二页物品栏 -->
+					<div class="list_mod" id="list_mod_two">
+						<div class="list_mod_top">
+						<p>美酒肥蟹迎中秋，合家欢乐庆团圆</p>
+							<img src="./image/buy1.jpg" alt="">
+							<img src="./image/buy2.jpg" alt="">
+							<img src="./image/buy3.jpg" alt="">
+						</div>
+						<div class="list_mod_top" id="list_mod_buttom">
+						<p>美酒肥蟹迎中秋，合家欢乐庆团圆</p>
+							<img src="./image/buy4.jpg" alt="">
+							<img src="./image/buy5.jpg" alt="">
+							<img src="./image/buy6.jpg" alt="">
+						</div>
+					</div>
+					<!-- 第三页物品栏 -->
+					<div class="list_mod" id="list_mod_three">
+						<div class="list_mod_top">
+						<p>大屏手机送父母，跟上智能时代不落伍</p>
+							<img src="./image/buy1.jpg" alt="">
+							<img src="./image/buy2.jpg" alt="">
+							<img src="./image/buy3.jpg" alt="">
+						</div>
+						<div class="list_mod_top" id="list_mod_buttom">
+						<p>大屏手机送父母，跟上智能时代不落伍</p>
+							<img src="./image/buy4.jpg" alt="">
+							<img src="./image/buy5.jpg" alt="">
+							<img src="./image/buy6.jpg" alt="">
+						</div>
+					</div>
+
+				</div>
+				<div id="list_left"></div>
+				<div id="list_right"></div>
+				<ul id="buy_le">
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+			</div>
+			<div class="rank_mod">
+				<div class="find_inn">
+					<i></i>
+					<h3>排行榜</h3>
+					<span>专属你的购物指南<i></i></span>
+				</div>
+				<div class="rank_box">
+					<!-- 标题 -->
+					<div class="rank_box_head">
+						<ul>
+							<li>十字绣</li>
+							<li>十字绣</li>
+							<li>十字绣</li>
+							<li>十字绣</li>
+							<li>十字绣</li>
+						</ul>
+						<div id="rank_line"></div>
+					</div>
+					<!-- 内容 -->
+					<div class="rank_box_main">
+						<ul id="rank_box_main_one">
+							<li>
+								<i>1</i>
+								<img src="./image/rank1.jpg" alt="">
+								<p>荣耀 畅玩6X 4GB+64GB 全网通4G手机</p>
+							</li>
+							<li>
+								<i>2</i>
+								<img src="./image/rank2.jpg" alt="">
+								<p>荣耀 畅玩6X 4GB+64GB 全网通4G手机</p>
+							</li>
+							<li>
+								<i>3</i>
+								<img src="./image/rank3.jpg" alt="">
+								<p>荣耀 畅玩6X 4GB+64GB 全网通4G手机</p>
+							</li>
+							<li>
+								<i>4</i>
+								<img src="./image/rank4.jpg" alt="">
+								<p>荣耀 畅玩6X 4GB+64GB 全网通4G手机</p>
+							</li>
+							<li>
+								<i>5</i>
+								<img src="./image/rank5.jpg" alt="">
+								<p>荣耀 畅玩6X 4GB+64GB 全网通4G手机</p>
+							</li>
+							<li>
+								<i>6</i>
+								<img src="./image/rank6.jpg" alt="">
+								<p>荣耀 畅玩6X 4GB+64GB 全网通4G手机</p>
+							</li>
+						</ul>
+						<ul id="rank_box_main_two">
+							<li>
+								<i></i>
+								<img src="./image/rank1.jpg" alt="">
+								<p>荣耀 畅玩6X 4GB+64GB 全网通4G手机</p>
+							</li>
+							<li>
+								<i></i>
+								<img src="./image/rank2.jpg" alt="">
+								<p>荣耀 畅玩6X 4GB+64GB 全网通4G手机</p>
+							</li>
+							<li>
+								<i></i>
+								<img src="./image/rank3.jpg" alt="">
+								<p>荣耀 畅玩6X 4GB+64GB 全网通4G手机</p>
+							</li>
+							<li>
+								<i></i>
+								<img src="./image/rank4.jpg" alt="">
+								<p>荣耀 畅玩6X 4GB+64GB 全网通4G手机</p>
+							</li>
+							<li>
+								<i></i>
+								<img src="./image/rank5.jpg" alt="">
+								<p>荣耀 畅玩6X 4GB+64GB 全网通4G手机</p>
+							</li>
+							<li>
+								<i></i>
+								<img src="./image/rank6.jpg" alt="">
+								<p>荣耀 畅玩6X 4GB+64GB 全网通4G手机</p>
+							</li>
+						</ul>
+						<ul id="rank_box_main_three">
+							<li>
+								<i></i>
+								<img src="./image/rank1.jpg" alt="">
+								<p>荣耀 畅玩6X 4GB+64GB 全网通4G手机</p>
+							</li>
+							<li>
+								<i></i>
+								<img src="./image/rank2.jpg" alt="">
+								<p>荣耀 畅玩6X 4GB+64GB 全网通4G手机</p>
+							</li>
+							<li>
+								<i></i>
+								<img src="./image/rank3.jpg" alt="">
+								<p>荣耀 畅玩6X 4GB+64GB 全网通4G手机</p>
+							</li>
+							<li>
+								<i></i>
+								<img src="./image/rank4.jpg" alt="">
+								<p>荣耀 畅玩6X 4GB+64GB 全网通4G手机</p>
+							</li>
+							<li>
+								<i></i>
+								<img src="./image/rank5.jpg" alt="">
+								<p>荣耀 畅玩6X 4GB+64GB 全网通4G手机</p>
+							</li>
+							<li>
+								<i></i>
+								<img src="./image/rank6.jpg" alt="">
+								<p>荣耀 畅玩6X 4GB+64GB 全网通4G手机</p>
+							</li>
+						</ul>
+						<ul id="rank_box_main_four">
+							<li>
+								<i></i>
+								<img src="./image/rank1.jpg" alt="">
+								<p>荣耀 畅玩6X 4GB+64GB 全网通4G手机</p>
+							</li>
+							<li>
+								<i></i>
+								<img src="./image/rank2.jpg" alt="">
+								<p>荣耀 畅玩6X 4GB+64GB 全网通4G手机</p>
+							</li>
+							<li>
+								<i></i>
+								<img src="./image/rank3.jpg" alt="">
+								<p>荣耀 畅玩6X 4GB+64GB 全网通4G手机</p>
+							</li>
+							<li>
+								<i></i>
+								<img src="./image/rank4.jpg" alt="">
+								<p>荣耀 畅玩6X 4GB+64GB 全网通4G手机</p>
+							</li>
+							<li>
+								<i></i>
+								<img src="./image/rank5.jpg" alt="">
+								<p>荣耀 畅玩6X 4GB+64GB 全网通4G手机</p>
+							</li>
+							<li>
+								<i></i>
+								<img src="./image/rank6.jpg" alt="">
+								<p>荣耀 畅玩6X 4GB+64GB 全网通4G手机</p>
+							</li>
+						</ul>
+						<ul id="rank_box_main_five">
+							<li>
+								<i></i>
+								<img src="./image/rank1.jpg" alt="">
+								<p>荣耀 畅玩6X 4GB+64GB 全网通4G手机</p>
+							</li>
+							<li>
+								<i></i>
+								<img src="./image/rank2.jpg" alt="">
+								<p>荣耀 畅玩6X 4GB+64GB 全网通4G手机</p>
+							</li>
+							<li>
+								<i></i>
+								<img src="./image/rank3.jpg" alt="">
+								<p>荣耀 畅玩6X 4GB+64GB 全网通4G手机</p>
+							</li>
+							<li>
+								<i></i>
+								<img src="./image/rank4.jpg" alt="">
+								<p>荣耀 畅玩6X 4GB+64GB 全网通4G手机</p>
+							</li>
+							<li>
+								<i></i>
+								<img src="./image/rank5.jpg" alt="">
+								<p>荣耀 畅玩6X 4GB+64GB 全网通4G手机</p>
+							</li>
+							<li>
+								<i></i>
+								<img src="./image/rank6.jpg" alt="">
+								<p>荣耀 畅玩6X 4GB+64GB 全网通4G手机</p>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 领券中心 -->
+		<div class="prize">
+			<div class="prize_our">
+				<div class="find_inn">
+					<i></i>
+					<h3>领券中心</h3>
+					<span>前往领券中心<i></i></span>
+				</div>
+				<div class="prize_details">
+					<ul>
+						<li>
+							<a href="####"></a>
+							<div class="coupon">
+								<p id="coupon_price">
+									¥
+									<i>166</i>
+								</p>
+								<p id="coupon_mod">
+									仅可购买自营部分diesel钟表商品
+								</p>
+								<p id="coupon_enough">
+									<span>
+										消费满2999元可用
+									</span>
+								</p>
+								<p id="coupon_more">
+									更多好券
+								</p>
+							</div>
+							<img src="./image/prize1.jpg" alt="">
+						</li>
+						<li>
+							<a href="####"></a>
+							<div class="coupon">
+								<p id="coupon_price">
+									¥
+									<i>166</i>
+								</p>
+								<p id="coupon_mod">
+									仅可购买自营部分diesel钟表商品
+								</p>
+								<p id="coupon_enough">
+									<span>
+										消费满2999元可用
+									</span>
+								</p>
+								<p id="coupon_more">
+									更多好券
+								</p>
+							</div>
+							<img src="./image/prize2.jpg" alt="">
+						</li>
+						<li>
+							<a href="####"></a>
+							<div class="coupon">
+								<p id="coupon_price">
+									¥
+									<i>166</i>
+								</p>
+								<p id="coupon_mod">
+									仅可购买自营部分diesel钟表商品
+								</p>
+								<p id="coupon_enough">
+									<span>
+										消费满2999元可用
+									</span>
+								</p>
+								<p id="coupon_more">
+									更多好券
+								</p>
+							</div>
+							<img src="./image/prize3.jpg" alt="">
+						</li>
+						<li>
+							<a href="####"></a>
+							<div class="coupon">
+								<p id="coupon_price">
+									¥
+									<i>166</i>
+								</p>
+								<p id="coupon_mod">
+									仅可购买自营部分diesel钟表商品
+								</p>
+								<p id="coupon_enough">
+									<span>
+										消费满2999元可用
+									</span>
+								</p>
+								<p id="coupon_more">
+									更多好券
+								</p>
+							</div>
+							<img src="./image/prize4.jpg" alt="">
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="live">
+				<div class="find_inn">
+					<i></i>
+					<h3>觅me</h3>
+					<span>探索生活<i></i></span>
+				</div>
+				<!-- 觅me探索生活 -->
+				<div class="live_box">
+					<a id="live_box_one" href="">
+						<img src="./image/live1.jpg" alt="">
+						<span id="live_top">国外传疯了的iPhone8真机操作视频，先睹为快！！</span>
+						<span id="live_mid">​华为P10有多快？跟iPhone7P比比就知道！</span>
+						<span id="live_bot">99999+人看过</span>
+					</a>
+					<a id="live_box_two" href="">
+						<img src="./image/live2.jpg" alt="">
+						<span id="live_top">国外传疯了的iPhone8真机操作视频，先睹为快！！</span>
+						<span id="live_mid">​华为P10有多快？跟iPhone7P比比就知道！</span>
+						<span id="live_bot">99999+人看过</span>
+					</a>
+					<a id="live_box_three" href="">
+						<img src="./image/live3.jpg" alt="">
+						<span id="live_top">国外传疯了的iPhone8真机操作视频，先睹为快！！</span>
+						<span id="live_mid">​华为P10有多快？跟iPhone7P比比就知道！</span>
+						<span id="live_bot">99999+人看过</span>
+					</a>
+					<a id="live_box_four" href="">
+						<img src="./image/live4.jpg" alt="">
+						<span id="live_top">国外传疯了的iPhone8真机操作视频，先睹为快！！</span>
+						<span id="live_mid">​华为P10有多快？跟iPhone7P比比就知道！</span>
+						<span id="live_bot">99999+人看过</span>
+					</a>
+					<a id="live_box_five" href="">
+						<img src="./image/live5.jpg" alt="">
+						<span id="live_top">国外传疯了的iPhone8真机操作视频，先睹为快！！</span>
+						<span id="live_mid">​华为P10有多快？跟iPhone7P比比就知道！</span>
+						<span id="live_bot">99999+人看过</span>
+					</a>
+				</div>
+				<div id="live_le"></div>
+				<div id="live_ri"></div>
+				<ul id="live_ul">
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+			</div>
+		</div>
+		<!-- 享生活 -->
+		<div class="enjoy">
+			<div class="enjoy_top">
+				<h3>享生活</h3>
+			</div>
+			<div class="enjoy_main">
+				<ul>
+					<li>
+						<a href="####"></a>
+						<div class="enjoy_box">
+							<h4>新品首发</h4>
+							<p>三星 Galaxy Note8 旗舰发布</p>
+						</div>
+						<img src="./image/enjoy1.jpg" alt="">
+					</li>
+					<li>
+						<a href="####"></a>
+						<div class="enjoy_box">
+							<h4>新品首发</h4>
+							<p>三星 Galaxy Note8 旗舰发布</p>
+						</div>
+						<img src="./image/enjoy2.jpg" alt="">
+					</li>
+					<li>
+						<a href="####"></a>
+						<div class="enjoy_box">
+							<h4>新品首发</h4>
+							<p>三星 Galaxy Note8 旗舰发布</p>
+						</div>
+						<img src="./image/enjoy3.jpg" alt="">
+					</li>
+					<li>
+						<a href="####"></a>
+						<div class="enjoy_box">
+							<h4>新品首发</h4>
+							<p>三星 Galaxy Note8 旗舰发布</p>
+						</div>
+						<img src="./image/enjoy4.jpg" alt="">
+					</li>
+					<li>
+						<a href="####"></a>
+						<div class="enjoy_box">
+							<h4>新品首发</h4>
+							<p>三星 Galaxy Note8 旗舰发布</p>
+						</div>
+						<img src="./image/enjoy5.jpg" alt="">
+					</li>
+					<li>
+						<a href="####"></a>
+						<div class="enjoy_box">
+							<h4>新品首发</h4>
+							<p>三星 Galaxy Note8 旗舰发布</p>
+						</div>
+						<img src="./image/enjoy6.jpg" alt="">
+					</li>
+				</ul>
+				<div class="enjoy_main_rig">
+					<!-- 标题 -->
+					<div class="enjoy_pic">
+						<div class="enjoy_pic_top">
+							<h4>&nbsp;京东直播</h4>
+							<span>更多<i></i></span>
+						</div>
+						<i></i>
+					</div>
+					<!-- 阴影下的图片 -->
+					<div class="live_pic">
+						<img src="./image/bo1.jpg" alt="">
+						<img src="./image/bo2.jpg" alt="">
+						<img src="./image/bo3.jpg" alt="">
+						<img src="./image/bo4.jpg" alt="">
+						<img src="./image/bo5.jpg" alt="">
+					</div>	
+					<div id="livele"></div>
+					<div id="liveri"></div>
+					<!-- 下方圆形按钮 -->
+					<div id="liveli">
+						<ul>
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+						</ul>
+					</div>
+						<ul>
+							<li>
+								<a href="####"></a>
+								<img src="./image/enjoy7.jpg" alt="">
+								<div class="enjoy_bot">
+									<h4>设计师推荐</h4>
+									<p>家装节</p>
+								</div>
+								
+							</li>
+							<li>
+								<a href="####"></a>
+								<img src="./image/enjoy8.jpg" alt="">
+								<div class="enjoy_bot">
+									<h4>设计师推荐</h4>
+									<p>家装节</p>
+								</div>
+							</li>
+						</ul>
+					
+				</div>
+			</div>
+		</div>
+		<!-- 电脑数码 -->
+		<div class="com">
+			<div class="com_box">
+				<!-- 电脑数码的标题 -->
+				<div class="com_til">
+					<h3>电脑数码</h3>
+					<i></i>
+					<ul>
+						<li>电脑馆</li>
+						<li>电脑馆</li>
+						<li>电脑馆</li>
+						<li>电脑馆</li>
+						<li>电脑馆</li>
+						<li>电脑馆</li>
+						<li>电脑馆</li>
+						<li>电脑馆</li>
+						<li>电脑馆</li>
+						<li>电脑馆</li>
+						<li>电脑馆</li>
+					</ul>
+				</div>
+				<div class="com_more">
+					<div class="com_left">
+						<div class="com_pic_left">
+							<img  src="./image/compu1.jpg" alt="">
+						</div>
+						
+						<ul class="com_ul">
+							<li>
+								<a href="####"></a>
+								<p class="com_top">
+									外设装备
+								</p>
+								<p class="com_bot">
+									IKBC无线键盘
+								</p>
+								<img src="./image/compu2.jpg" alt="">
+							</li>
+							<li>
+								<a href="####"></a>
+								<p class="com_top">
+									外设装备
+								</p>
+								<p class="com_bot">
+									IKBC无线键盘
+								</p>
+								<img src="./image/compu3.jpg" alt="">
+							</li>
+							<li>
+								<a href="####"></a>
+								<p class="com_top">
+									外设装备
+								</p>
+								<p class="com_bot">
+									IKBC无线键盘
+								</p>
+								<img src="./image/compu4.jpg" alt="">
+							</li>
+							<li>
+								<a href="####"></a>
+								<p class="com_top">
+									外设装备
+								</p>
+								<p class="com_bot">
+									IKBC无线键盘
+								</p>
+								<img src="./image/compu5.jpg" alt="">
+							</li>
+						</ul>
+						<div class="com_bot_left" id="com_bot_le">
+							<a href="####"></a>
+							<img  src="./image/compu6.jpg" alt="">
+						</div>
+						<div class="com_bot_mid">
+							<img  src="./image/compu7.jpg" alt="">
+						</div>
+						<div class="com_bot_rig">
+							<img  src="./image/compu8.jpg" alt="">
+						</div>
+					</div>
+					<div class="com_right">
+						<div class="com_pic_left">
+							<img  src="./image/compu1.jpg" alt="">
+						</div>
+						
+						<ul class="com_ul">
+							<li>
+
+								<a href="####"></a>
+								<p class="com_top">
+									外设装备
+								</p>
+								<p class="com_bot">
+									IKBC无线键盘
+								</p>
+								<img src="./image/compu2.jpg" alt="">
+							</li>
+							<li>
+								<a href="####"></a>
+								<p class="com_top">
+									外设装备
+								</p>
+								<p class="com_bot">
+									IKBC无线键盘
+								</p>
+								<img src="./image/compu3.jpg" alt="">
+							</li>
+							<li>
+								<a href="####"></a>
+								<p class="com_top">
+									外设装备
+								</p>
+								<p class="com_bot">
+									IKBC无线键盘
+								</p>
+								<img src="./image/compu4.jpg" alt="">
+							</li>
+							<li>
+								<a href="####"></a>
+								<p class="com_top">
+									外设装备
+								</p>
+								<p class="com_bot">
+									IKBC无线键盘
+								</p>
+								<img src="./image/compu5.jpg" alt="">
+							</li>
+						</ul>
+						<div class="com_bot_left">
+							<img  src="./image/compu6.jpg" alt="">
+						</div>
+						<div class="com_bot_mid">
+							<img  src="./image/compu7.jpg" alt="">
+						</div>
+						<div class="com_bot_rig">
+							<img  src="./image/compu8.jpg" alt="">
+						</div>
+					</div>
+					<!-- 电脑数码最下方的小图片移动 -->
+					<div class="com_bottom">
+						<ul id="com_bottom_one">
+							<li><img src="./image/co1.jpg" alt=""></li>
+							<li><img src="./image/co2.jpg" alt=""></li>
+							<li><img src="./image/co3.jpg" alt=""></li>
+							<li><img src="./image/co4.jpg" alt=""></li>
+							<li><img src="./image/co5.jpg" alt=""></li>
+							<li><img src="./image/co6.jpg" alt=""></li>
+							<li><img src="./image/co7.jpg" alt=""></li>
+							<li><img src="./image/co8.jpg" alt=""></li>
+							<li><img src="./image/co9.jpg" alt=""></li>
+							<li><img src="./image/co10.png" alt=""></li>
+							<li><img src="./image/co11.jpg" alt=""></li>
+							<li><img src="./image/co12.jpg" alt=""></li>
+						</ul>
+						<ul id="com_bottom_two">
+							<li><img src="./image/co1.jpg" alt=""></li>
+							<li><img src="./image/co2.jpg" alt=""></li>
+							<li><img src="./image/co3.jpg" alt=""></li>
+							<li><img src="./image/co4.jpg" alt=""></li>
+							<li><img src="./image/co5.jpg" alt=""></li>
+							<li><img src="./image/co6.jpg" alt=""></li>
+							<li><img src="./image/co7.jpg" alt=""></li>
+							<li><img src="./image/co8.jpg" alt=""></li>
+							<li><img src="./image/co9.jpg" alt=""></li>
+							<li><img src="./image/co10.png" alt=""></li>
+							<li><img src="./image/co11.jpg" alt=""></li>
+							<li><img src="./image/co12.jpg" alt=""></li>
+						</ul>
+						<ul id="com_bottom_three">
+							<li><img src="./image/co1.jpg" alt=""></li>
+							<li><img src="./image/co2.jpg" alt=""></li>
+							<li><img src="./image/co3.jpg" alt=""></li>
+							<li><img src="./image/co4.jpg" alt=""></li>
+							<li><img src="./image/co5.jpg" alt=""></li>
+							<li><img src="./image/co6.jpg" alt=""></li>
+							<li><img src="./image/co7.jpg" alt=""></li>
+							<li><img src="./image/co8.jpg" alt=""></li>
+							<li><img src="./image/co9.jpg" alt=""></li>
+							<li><img src="./image/co10.png" alt=""></li>
+							<li><img src="./image/co11.jpg" alt=""></li>
+							<li><img src="./image/co12.jpg" alt=""></li>
+						</ul>
+						<div id="com_bo_le"></div>
+						<div  id="com_bo_ri"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!-- 玩3c -->
+		<div class="play" >
+			<!-- 左边 -->
+			<div class="play_left">
+				<div class="play_til">
+					<h3>玩3C</h3>
+					<ul>
+						<li>手机</li>
+						<li>电脑</li>
+						<li>数码</li>
+						<li>京东摄影</li>
+						<li>京东摄影</li>
+					</ul>
+				</div>
+				<div class="play_main">
+					<div class="play_main_le" id="play_le">
+						<img src="./image/3c1.jpg" alt="">
+					</div>
+					<ul class="play_main_ul" id="play_li_l">
+						<li>
+							<a href="####"></a>
+							<p>图书频排行榜</p>
+							<p>爆品推荐新品出炉</p>
+							<img src="./image/compu2.jpg" alt="">
+						</li>
+						<li>
+							<a href="####"></a>
+							<p>图书频排行榜</p>
+							<p>爆品推荐新品出炉</p>
+							<img src="./image/compu3.jpg" alt="">
+						</li>
+						<li>
+							<a href="####"></a>
+							<p>图书频排行榜</p>
+							<p>爆品推荐新品出炉</p>
+							<img src="./image/compu4.jpg" alt="">
+						</li>
+						<li>
+							<a href="####"></a>
+							<p>图书频排行榜</p>
+							<p>爆品推荐新品出炉</p>
+							<img src="./image/compu5.jpg" alt="">
+						</li>
+					</ul>
+					<div class="play_main_bl"><img src="./image/3c6.jpg" alt=""></div>
+					<div class="play_main_bm"><img src="./image/3c7.jpg" alt=""></div>
+					<div class="play_main_br"><img src="./image/3c8.jpg" alt=""></div>
+					<ul class="play_main_bot" id="le_ma_mid">
+						<li><img src="./image/3c9.jpg" alt=""></li>
+						<li><img src="./image/3c10.jpg" alt=""></li>
+						<li><img src="./image/3c11.jpg" alt=""></li>
+						<li><img src="./image/3c12.jpg" alt=""></li>
+						<li><img src="./image/3c13.jpg" alt=""></li>
+						<li><img src="./image/3c14.jpg" alt=""></li>
+					</ul>
+					<ul class="play_main_bot" id="le_ma_ri">
+						<li><img src="./image/3c9.jpg" alt=""></li>
+						<li><img src="./image/3c10.jpg" alt=""></li>
+						<li><img src="./image/3c11.jpg" alt=""></li>
+						<li><img src="./image/3c12.jpg" alt=""></li>
+						<li><img src="./image/3c13.jpg" alt=""></li>
+						<li><img src="./image/3c14.jpg" alt=""></li>
+					</ul>
+					<ul class="play_main_bot" id="le_ma_le">
+						<li><img src="./image/3c9.jpg" alt=""></li>
+						<li><img src="./image/3c10.jpg" alt=""></li>
+						<li><img src="./image/3c11.jpg" alt=""></li>
+						<li><img src="./image/3c12.jpg" alt=""></li>
+						<li><img src="./image/3c13.jpg" alt=""></li>
+						<li><img src="./image/3c14.jpg" alt=""></li>
+					</ul>
+					<!-- 左右按钮 -->
+					<div id="mai_le"></div>
+					<div id="mai_ri"></div>
+				</div>
+			</div>
+			<!-- 右边 -->
+			<div class="play_right">
+				<div class="play_til">
+					<h3>玩3C</h3>
+					<ul>
+						<li>手机</li>
+						<li>电脑</li>
+						<li>数码</li>
+						<li>京东摄影</li>
+						<li>京东摄影</li>
+					</ul>
+				</div>
+				<div class="play_main">
+					<div class="play_main_le" id="play_ri">
+						<img src="./image/3c1.jpg" alt="">
+					</div>
+					<ul class="play_main_ul" >
+						<li>
+							<a href="####"></a>
+							<p>图书频排行榜</p>
+							<p>爆品推荐新品出炉</p>
+							<img src="./image/compu2.jpg" alt="">
+						</li>
+						<li>
+							<a href="####"></a>
+							<p>图书频排行榜</p>
+							<p>爆品推荐新品出炉</p>
+							<img src="./image/compu3.jpg" alt="">
+						</li>
+						<li>
+							<a href="####"></a>
+							<p>图书频排行榜</p>
+							<p>爆品推荐新品出炉</p>
+							<img src="./image/compu4.jpg" alt="">
+						</li>
+						<li>
+							<a href="####"></a>
+							<p>图书频排行榜</p>
+							<p>爆品推荐新品出炉</p>
+							<img src="./image/compu5.jpg" alt="">
+						</li>
+					</ul>
+					<div class="play_main_bl"><img src="./image/3c6.jpg" alt=""></div>
+					<div class="play_main_bm"><img src="./image/3c7.jpg" alt=""></div>
+					<div class="play_main_br"><img src="./image/3c8.jpg" alt=""></div>
+					<ul class="play_main_bot" id="ri_ma_mid">
+						<li><img src="./image/3c9.jpg" alt=""></li>
+						<li><img src="./image/3c10.jpg" alt=""></li>
+						<li><img src="./image/3c11.jpg" alt=""></li>
+						<li><img src="./image/3c12.jpg" alt=""></li>
+						<li><img src="./image/3c13.jpg" alt=""></li>
+						<li><img src="./image/3c14.jpg" alt=""></li>
+					</ul>
+					<ul class="play_main_bot" id="ri_ma_ri">
+						<li><img src="./image/3c9.jpg" alt=""></li>
+						<li><img src="./image/3c10.jpg" alt=""></li>
+						<li><img src="./image/3c11.jpg" alt=""></li>
+						<li><img src="./image/3c12.jpg" alt=""></li>
+						<li><img src="./image/3c13.jpg" alt=""></li>
+						<li><img src="./image/3c14.jpg" alt=""></li>
+					</ul>
+					<ul class="play_main_bot" id="ri_ma_le">
+						<li><img src="./image/3c9.jpg" alt=""></li>
+						<li><img src="./image/3c10.jpg" alt=""></li>
+						<li><img src="./image/3c11.jpg" alt=""></li>
+						<li><img src="./image/3c12.jpg" alt=""></li>
+						<li><img src="./image/3c13.jpg" alt=""></li>
+						<li><img src="./image/3c14.jpg" alt=""></li>
+					</ul>
+					<div id="ri_le"></div>
+					<div id="ri_ri"></div>
+				</div>
+			</div>
+		</div>
+
+		<!-- 电脑数码 -->
+		<div class="com" id="com_cp">
+			<div class="com_box">
+				<!-- 电脑数码的标题 -->
+				<div class="com_til">
+					<h3>电脑数码</h3>
+					<i></i>
+					<ul>
+						<li>电脑馆</li>
+						<li>电脑馆</li>
+						<li>电脑馆</li>
+						<li>电脑馆</li>
+						<li>电脑馆</li>
+						<li>电脑馆</li>
+						<li>电脑馆</li>
+						<li>电脑馆</li>
+						<li>电脑馆</li>
+						<li>电脑馆</li>
+						<li>电脑馆</li>
+					</ul>
+				</div>
+				<div class="com_more">
+					<div class="com_left">
+						<div class="com_pic_left">
+							<img  src="./image/compu1.jpg" alt="">
+						</div>
+						
+						<ul class="com_ul">
+							<li>
+								<a href="####"></a>
+								<p class="com_top">
+									外设装备
+								</p>
+								<p class="com_bot">
+									IKBC无线键盘
+								</p>
+								<img src="./image/compu2.jpg" alt="">
+							</li>
+							<li>
+								<a href="####"></a>
+								<p class="com_top">
+									外设装备
+								</p>
+								<p class="com_bot">
+									IKBC无线键盘
+								</p>
+								<img src="./image/compu3.jpg" alt="">
+							</li>
+							<li>
+								<a href="####"></a>
+								<p class="com_top">
+									外设装备
+								</p>
+								<p class="com_bot">
+									IKBC无线键盘
+								</p>
+								<img src="./image/compu4.jpg" alt="">
+							</li>
+							<li>
+								<a href="####"></a>
+								<p class="com_top">
+									外设装备
+								</p>
+								<p class="com_bot">
+									IKBC无线键盘
+								</p>
+								<img src="./image/compu5.jpg" alt="">
+							</li>
+						</ul>
+						<div class="com_bot_left" id="com_bot_le">
+							<a href="####"></a>
+							<img  src="./image/compu6.jpg" alt="">
+						</div>
+						<div class="com_bot_mid">
+							<img  src="./image/compu7.jpg" alt="">
+						</div>
+						<div class="com_bot_rig">
+							<img  src="./image/compu8.jpg" alt="">
+						</div>
+					</div>
+					<div class="com_right">
+						<div class="com_pic_left">
+							<img  src="./image/compu1.jpg" alt="">
+						</div>
+						
+						<ul class="com_ul">
+							<li>
+
+								<a href="####"></a>
+								<p class="com_top">
+									外设装备
+								</p>
+								<p class="com_bot">
+									IKBC无线键盘
+								</p>
+								<img src="./image/compu2.jpg" alt="">
+							</li>
+							<li>
+								<a href="####"></a>
+								<p class="com_top">
+									外设装备
+								</p>
+								<p class="com_bot">
+									IKBC无线键盘
+								</p>
+								<img src="./image/compu3.jpg" alt="">
+							</li>
+							<li>
+								<a href="####"></a>
+								<p class="com_top">
+									外设装备
+								</p>
+								<p class="com_bot">
+									IKBC无线键盘
+								</p>
+								<img src="./image/compu4.jpg" alt="">
+							</li>
+							<li>
+								<a href="####"></a>
+								<p class="com_top">
+									外设装备
+								</p>
+								<p class="com_bot">
+									IKBC无线键盘
+								</p>
+								<img src="./image/compu5.jpg" alt="">
+							</li>
+						</ul>
+						<div class="com_bot_left">
+							<img  src="./image/compu6.jpg" alt="">
+						</div>
+						<div class="com_bot_mid">
+							<img  src="./image/compu7.jpg" alt="">
+						</div>
+						<div class="com_bot_rig">
+							<img  src="./image/compu8.jpg" alt="">
+						</div>
+					</div>
+					<!-- 电脑数码最下方的小图片移动 -->
+					<div class="com_bottom">
+						<ul id="com_bottom_one">
+							<li><img src="./image/co1.jpg" alt=""></li>
+							<li><img src="./image/co2.jpg" alt=""></li>
+							<li><img src="./image/co3.jpg" alt=""></li>
+							<li><img src="./image/co4.jpg" alt=""></li>
+							<li><img src="./image/co5.jpg" alt=""></li>
+							<li><img src="./image/co6.jpg" alt=""></li>
+							<li><img src="./image/co7.jpg" alt=""></li>
+							<li><img src="./image/co8.jpg" alt=""></li>
+							<li><img src="./image/co9.jpg" alt=""></li>
+							<li><img src="./image/co10.png" alt=""></li>
+							<li><img src="./image/co11.jpg" alt=""></li>
+							<li><img src="./image/co12.jpg" alt=""></li>
+						</ul>
+						<ul id="com_bottom_two">
+							<li><img src="./image/co1.jpg" alt=""></li>
+							<li><img src="./image/co2.jpg" alt=""></li>
+							<li><img src="./image/co3.jpg" alt=""></li>
+							<li><img src="./image/co4.jpg" alt=""></li>
+							<li><img src="./image/co5.jpg" alt=""></li>
+							<li><img src="./image/co6.jpg" alt=""></li>
+							<li><img src="./image/co7.jpg" alt=""></li>
+							<li><img src="./image/co8.jpg" alt=""></li>
+							<li><img src="./image/co9.jpg" alt=""></li>
+							<li><img src="./image/co10.png" alt=""></li>
+							<li><img src="./image/co11.jpg" alt=""></li>
+							<li><img src="./image/co12.jpg" alt=""></li>
+						</ul>
+						<ul id="com_bottom_three">
+							<li><img src="./image/co1.jpg" alt=""></li>
+							<li><img src="./image/co2.jpg" alt=""></li>
+							<li><img src="./image/co3.jpg" alt=""></li>
+							<li><img src="./image/co4.jpg" alt=""></li>
+							<li><img src="./image/co5.jpg" alt=""></li>
+							<li><img src="./image/co6.jpg" alt=""></li>
+							<li><img src="./image/co7.jpg" alt=""></li>
+							<li><img src="./image/co8.jpg" alt=""></li>
+							<li><img src="./image/co9.jpg" alt=""></li>
+							<li><img src="./image/co10.png" alt=""></li>
+							<li><img src="./image/co11.jpg" alt=""></li>
+							<li><img src="./image/co12.jpg" alt=""></li>
+						</ul>
+						<div id="com_bo_le"></div>
+						<div  id="com_bo_ri"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- 玩3c -->
+		<div class="play" id="play_cp">
+			<!-- 左边 -->
+			<div class="play_left">
+				<div class="play_til">
+					<h3>玩3C</h3>
+					<ul>
+						<li>手机</li>
+						<li>电脑</li>
+						<li>数码</li>
+						<li>京东摄影</li>
+						<li>京东摄影</li>
+					</ul>
+				</div>
+				<div class="play_main">
+					<div class="play_main_le" id="play_le">
+						<img src="./image/3c1.jpg" alt="">
+					</div>
+					<ul class="play_main_ul" id="play_li_l">
+						<li>
+							<a href="####"></a>
+							<p>图书频排行榜</p>
+							<p>爆品推荐新品出炉</p>
+							<img src="./image/compu2.jpg" alt="">
+						</li>
+						<li>
+							<a href="####"></a>
+							<p>图书频排行榜</p>
+							<p>爆品推荐新品出炉</p>
+							<img src="./image/compu3.jpg" alt="">
+						</li>
+						<li>
+							<a href="####"></a>
+							<p>图书频排行榜</p>
+							<p>爆品推荐新品出炉</p>
+							<img src="./image/compu4.jpg" alt="">
+						</li>
+						<li>
+							<a href="####"></a>
+							<p>图书频排行榜</p>
+							<p>爆品推荐新品出炉</p>
+							<img src="./image/compu5.jpg" alt="">
+						</li>
+					</ul>
+					<div class="play_main_bl"><img src="./image/3c6.jpg" alt=""></div>
+					<div class="play_main_bm"><img src="./image/3c7.jpg" alt=""></div>
+					<div class="play_main_br"><img src="./image/3c8.jpg" alt=""></div>
+					<ul class="play_main_bot" id="le_ma_mid">
+						<li><img src="./image/3c9.jpg" alt=""></li>
+						<li><img src="./image/3c10.jpg" alt=""></li>
+						<li><img src="./image/3c11.jpg" alt=""></li>
+						<li><img src="./image/3c12.jpg" alt=""></li>
+						<li><img src="./image/3c13.jpg" alt=""></li>
+						<li><img src="./image/3c14.jpg" alt=""></li>
+					</ul>
+					<ul class="play_main_bot" id="le_ma_ri">
+						<li><img src="./image/3c9.jpg" alt=""></li>
+						<li><img src="./image/3c10.jpg" alt=""></li>
+						<li><img src="./image/3c11.jpg" alt=""></li>
+						<li><img src="./image/3c12.jpg" alt=""></li>
+						<li><img src="./image/3c13.jpg" alt=""></li>
+						<li><img src="./image/3c14.jpg" alt=""></li>
+					</ul>
+					<ul class="play_main_bot" id="le_ma_le">
+						<li><img src="./image/3c9.jpg" alt=""></li>
+						<li><img src="./image/3c10.jpg" alt=""></li>
+						<li><img src="./image/3c11.jpg" alt=""></li>
+						<li><img src="./image/3c12.jpg" alt=""></li>
+						<li><img src="./image/3c13.jpg" alt=""></li>
+						<li><img src="./image/3c14.jpg" alt=""></li>
+					</ul>
+					<!-- 左右按钮 -->
+					<div id="mai_le"></div>
+					<div id="mai_ri"></div>
+				</div>
+			</div>
+			<!-- 右边 -->
+			<div class="play_right">
+				<div class="play_til">
+					<h3>玩3C</h3>
+					<ul>
+						<li>手机</li>
+						<li>电脑</li>
+						<li>数码</li>
+						<li>京东摄影</li>
+						<li>京东摄影</li>
+					</ul>
+				</div>
+				<div class="play_main">
+					<div class="play_main_le" id="play_ri">
+						<img src="./image/3c1.jpg" alt="">
+					</div>
+					<ul class="play_main_ul" >
+						<li>
+							<a href="####"></a>
+							<p>图书频排行榜</p>
+							<p>爆品推荐新品出炉</p>
+							<img src="./image/compu2.jpg" alt="">
+						</li>
+						<li>
+							<a href="####"></a>
+							<p>图书频排行榜</p>
+							<p>爆品推荐新品出炉</p>
+							<img src="./image/compu3.jpg" alt="">
+						</li>
+						<li>
+							<a href="####"></a>
+							<p>图书频排行榜</p>
+							<p>爆品推荐新品出炉</p>
+							<img src="./image/compu4.jpg" alt="">
+						</li>
+						<li>
+							<a href="####"></a>
+							<p>图书频排行榜</p>
+							<p>爆品推荐新品出炉</p>
+							<img src="./image/compu5.jpg" alt="">
+						</li>
+					</ul>
+					<div class="play_main_bl"><img src="./image/3c6.jpg" alt=""></div>
+					<div class="play_main_bm"><img src="./image/3c7.jpg" alt=""></div>
+					<div class="play_main_br"><img src="./image/3c8.jpg" alt=""></div>
+					<ul class="play_main_bot" id="ri_ma_mid">
+						<li><img src="./image/3c9.jpg" alt=""></li>
+						<li><img src="./image/3c10.jpg" alt=""></li>
+						<li><img src="./image/3c11.jpg" alt=""></li>
+						<li><img src="./image/3c12.jpg" alt=""></li>
+						<li><img src="./image/3c13.jpg" alt=""></li>
+						<li><img src="./image/3c14.jpg" alt=""></li>
+					</ul>
+					<ul class="play_main_bot" id="ri_ma_ri">
+						<li><img src="./image/3c9.jpg" alt=""></li>
+						<li><img src="./image/3c10.jpg" alt=""></li>
+						<li><img src="./image/3c11.jpg" alt=""></li>
+						<li><img src="./image/3c12.jpg" alt=""></li>
+						<li><img src="./image/3c13.jpg" alt=""></li>
+						<li><img src="./image/3c14.jpg" alt=""></li>
+					</ul>
+					<ul class="play_main_bot" id="ri_ma_le">
+						<li><img src="./image/3c9.jpg" alt=""></li>
+						<li><img src="./image/3c10.jpg" alt=""></li>
+						<li><img src="./image/3c11.jpg" alt=""></li>
+						<li><img src="./image/3c12.jpg" alt=""></li>
+						<li><img src="./image/3c13.jpg" alt=""></li>
+						<li><img src="./image/3c14.jpg" alt=""></li>
+					</ul>
+					<div id="ri_le"></div>
+					<div id="ri_ri"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- 页脚 -->
+	<div class="footer">
+		<div class="footer_top">
+			<ul>
+				<li><i></i><p>品类齐全，轻松购物</p></li>
+				<li><i></i><p>品类齐全，轻松购物</p></li>
+				<li><i></i><p>品类齐全，轻松购物</p></li>
+				<li><i></i><p>品类齐全，轻松购物</p></li>
+			</ul>
+		</div>
+		<div class="footer_main">
+			<div class="shop footer_box">
+				<h5>购物指南</h5>
+				<ul>
+					<li>购物流程</li>
+					<li>购物流程</li>
+					<li>购物流程</li>
+					<li>购物流程</li>
+					<li>购物流程</li>
+					<li>购物流程</li>
+				</ul>
+			</div>
+			<div class="send footer_box">
+				<h5>购物指南</h5>
+				<ul>
+					<li>购物流程</li>
+					<li>购物流程</li>
+					<li>购物流程</li>
+					<li>购物流程</li>
+					<li>购物流程</li>
+					<li>购物流程</li>
+				</ul>
+			</div>
+			<div class="pay footer_box">
+				<h5>购物指南</h5>
+				<ul>
+					<li>购物流程</li>
+					<li>购物流程</li>
+					<li>购物流程</li>
+					<li>购物流程</li>
+					<li>购物流程</li>
+					<li>购物流程</li>
+				</ul>
+			</div>
+			<div class="service footer_box">
+				<h5>购物指南</h5>
+				<ul>
+					<li>购物流程</li>
+					<li>购物流程</li>
+					<li>购物流程</li>
+					<li>购物流程</li>
+					<li>购物流程</li>
+					<li>购物流程</li>
+				</ul>
+			</div>
+			<div class="advantage footer_box">
+				<h5>购物指南</h5>
+				<ul>
+					<li>购物流程</li>
+					<li>购物流程</li>
+					<li>购物流程</li>
+					<li>购物流程</li>
+					<li>购物流程</li>
+					<li>购物流程</li>
+				</ul></div>
+			<div class="Range">
+				<h5>京东自营覆盖区县</h5>
+				<p>京东已向全国2661个区县提供自营配送服务，支持货到付款、POS机刷卡和售后上门服务。</p>
+				<p><a href="javascript:;">查看详情</a></p>
+			</div>
+		</div>
+		<div class="footer_bot">
+			<p>
+				<a href="javascript:;">联系我们</a>|
+				<a href="javascript:;">联系我们</a>|
+				<a href="javascript:;">联系我们</a>|
+				<a href="javascript:;">联系我们</a>|
+				<a href="javascript:;">联系我们</a>|
+				<a href="javascript:;">联系我们</a>|
+				<a href="javascript:;">联系我们</a>|
+				<a href="javascript:;">联系我们</a>|
+				<a href="javascript:;">联系我们</a>|
+				<a href="javascript:;">联系我们</a>|
+				<a href="javascript:;">联系我们</a>|
+				<a href="javascript:;">联系我们</a>|
+				<a href="javascript:;">联系我们</a>|
+				<a href="javascript:;">联系我们</a>|
+				<a href="javascript:;">联系我们</a>
+			</p>
+			<p>
+				<a href="javascript:;">京公网安备 11000002000088号</a>|
+				<a href="javascript:;">京ICP证070359号</a>|
+				<a href="javascript:;">互联网药品信息服务资格证编号(京)-经营性-2014-0008</a>|
+				<a href="javascript:;">新出发京零 字第大120007号</a>
+			</p>
+			<p>
+				<a href="javascript:;">互联网出版许可证编号新出网证(京)字150号</a>|
+				<a href="javascript:;">出版物经营许可证</a>|
+				<a href="javascript:;">网络文化经营许可证京网文[2014]2148-348号</a>|
+				<a href="javascript:;">违法和不良信息举报电话：4006561155</a>
+			</p>
+			<p>
+				<a href="javascript:;">Copyright © 2004 - 2017  京东JD.com 版权所有</a>|
+				<a href="javascript:;">消费者维权热线：4006067733经营证照</a>
+			</p>
+			<p>
+				<a href="javascript:;">京东旗下网站：京东支付</a>|
+				<a href="javascript:;">京东云</a>
+			</p>
+		</div>
+		<div class="footer_bot_pic">
+			<ul>
+				<li>
+					<img src="./image/25.png" alt="">
+					<a href="javascript:;">深圳网络警察报警平台</a>
+				</li>
+				<li>
+					<img src="./image/26.png" alt="">
+					<a href="javascript:;">公共信息安全网络监察</a>
+				</li>
+				<li>
+					<img src="./image/27.png" alt="">
+					<a href="javascript:;">不良信息举报中心</a>
+				</li>
+				<li>
+					<img src="" alt="">
+					<a href="javascript:;">不良信息举报中心</a>
+				</li>
+				<li>
+					<img src="./image/28.png" alt="">
+					<a href="javascript:;">不良信息举报中心</a>
+				</li>
+				<li>
+					<img src="./image/29.png" alt="">
+					<a href="javascript:;">不良信息举报中心</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</body>
+<script src="./js/index_header.js"></script>
+</html>

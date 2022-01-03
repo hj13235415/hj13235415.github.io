@@ -1,0 +1,1652 @@
+	.main{
+		width: 1349px;
+		/*height: 500px;*/
+		position: relative;
+		background: #F6F6F6;
+		overflow: hidden;
+	}
+	.main >.timer_go{
+		width:1190px;
+		height: 55px;
+		background: url(../image/seckill_hd.png);
+		position: relative;
+		left:80px;
+		overflow: hidden;
+	}
+	/*秒伤的边角*/
+	.main >.timer_go >#timer_horn{
+		display: block;
+		position: absolute;
+		width: 28px;
+		height:28px;
+		background: url(../image/sprite_index@1x.png);
+		background-position: -190px -48px;
+		top:-4px;
+		left:-4px;
+	}
+	/*秒杀的时钟图标*/
+	.main >.timer_go >#timer_clock{
+		display: block;
+		width: 34px;
+		height:40px;
+		background: url(../image/sprite_index@1x.png);
+		background-position: 0px -40px;
+		position: absolute;
+		top:8px;
+		left:30px;
+	}
+	/*京东秒杀的标题*/
+	.main >.timer_go >#timer_tit{
+		position: absolute;
+		font-weight: 400;
+		top:12px;
+		left:80px;
+		font-size: 26px;
+		color:#fff;
+	}
+	/*更多京东秒杀的链接*/
+	.main >.timer_go >a{
+		text-decoration: none;
+		color: #fff;
+		font-size: 14px;
+		position: relative;
+		top:25px;
+		left:200px;
+	}
+	.main >.timer_go >a>i{
+		width: 15px;
+		height:16px;
+		background: url(../image/sprite_index@1x.png);
+		background-position: -154px -40px;
+		position: absolute;
+		top:2px;
+		left:130px;
+	}
+	/*秒杀的时间*/
+	.main >.timer_go >.timer_now{
+		width: 269px;
+		height:55px;
+		position: relative;
+		top:-21px;
+		left:900px;
+	}
+	/*秒杀的时间文字提示*/
+	.main >.timer_go >.timer_now>span{
+		width: 70px;
+		color:#fff;
+		font-size: 14px;
+		float: left;
+		margin-top: 27px;
+	}
+	.main >.timer_go >.timer_now>#timer_over{
+		position: absolute;
+		top:0;
+		left:197px;
+	}
+	/*秒杀的时间的展示*/
+	.main >.timer_go >.timer_now>.timing{
+		width: 129px;
+		height: 37px;
+		position: absolute;
+		top:11px;
+		left:62px;
+		/*background: #00f;*/
+	}
+	/*秒杀的时间的一些通用样式*/
+	.main >.timer_go >.timer_now>.timing>.timer_eve{
+		width: 35px;
+		height:37px;
+		font-size: 24px;
+		border-radius: 5px;
+		background: #440106;
+		line-height: 37px;
+		text-align: center;
+		font-family: Arial;
+		font-weight: 700;
+		color: #F9000A;		
+	}
+	/*分钟的设置*/
+	.main >.timer_go >.timer_now>.timing>#timer_min{
+		position: absolute;
+		left:46px;
+		top:0px;
+	}
+	/*秒钟的设置*/
+	.main >.timer_go >.timer_now>.timing>#timer_sec{
+		position: absolute;
+		left:92px;
+		top:0px;
+	}
+	/* ：的设置*/
+	.main >.timer_go >.timer_now>.timing>.timer_fen{
+		width: 11px;
+		height: 37px;
+		line-height: 37px;
+		text-align: center;
+		font-family: Arial;
+		font-weight: 700;
+		color: #440106;
+		font-size: 24px;
+	}
+	/* :的位置的设定*/
+	.main >.timer_go >.timer_now>.timing>#timer_fen_one{
+		position: absolute;
+		left:35px;
+		top:0px;
+	}
+	.main >.timer_go >.timer_now>.timing>#timer_fen_two{
+		position: absolute;
+		left:81px;
+		top:0px;
+	}
+	/*秒杀的物品的样式*/
+	.main >.timer_modity{
+		width:1190px;
+		height: 250px;
+		/*background: #f00;*/
+		position: relative;
+		left:80px;
+		overflow: hidden;
+	}
+	/*秒杀物品的图片*/
+	.main >.timer_modity >.clothes{
+		width: 1000px;
+		height: 225px;
+		/*background: #f00;*/
+		position: relative;
+		top:10px;
+		overflow: hidden;
+	}
+	.main >.timer_modity >.clothes >ul{
+		position: absolute;
+		width: 1000px;
+		/*background: #f0f;*/
+		float: left;
+	}
+	.main >.timer_modity >.clothes >ul>li{
+		float: left;
+		width: 199px;
+		height: 225px;
+		border-right: 1px solid #ccc;
+		/*background: #f0f;*/
+		position: relative;
+		background: #fff;
+	}
+	.main >.timer_modity >.clothes >ul>li:nth-child(5){
+		border-right:0;
+	}
+	/*秒杀物品的图片*/
+	.main >.timer_modity >.clothes >ul>li>img{
+		width: 130px;
+		height:130px;
+		position: absolute;
+		top:30px;
+		left:35px;
+	}
+	/*秒杀物品的价格*/
+	.main >.timer_modity >.clothes >ul>li>p{
+		width: 170px;
+		height:32px;
+		font-size: 12px;
+		color:#ccc;
+		position: relative;
+		top:160px;
+		left:20px;
+	}
+	.main >.timer_modity >.clothes >ul>li>.price{
+		width: 170px;
+		height: 31px;
+		/*background: #00f;*/
+		position: relative;
+		top:162px;
+		left:17px;
+		font-size: 12px;
+		color: #999;
+	}
+	/*秒杀物品的原价*/
+	.main >.timer_modity >.clothes >ul>li>.price>i{
+		font-size: 12px;
+		font-weight: 300px;
+		color: red;
+		font-style:normal;
+	}
+	.main >.timer_modity >.clothes >ul>li>.price>span{
+		font-size: 18px;
+		font-weight: 700;
+		color: red;
+	}
+	/*左边隐藏的一组物品图片*/
+	.main >.timer_modity >.clothes >#clothes_inleft{
+		position: absolute;
+		top:0px;
+		left:-1000px;
+	}
+	/*右边隐藏的一组物品图片*/
+	.main >.timer_modity >.clothes >#clothes_left{
+		position: absolute;
+		top:0px;
+		left:1000px;
+	}
+	.main >.timer_modity >.to_le{
+		width: 20px;
+		height: 50px;
+		background: rgba(229,229,229,.9);
+		position: absolute;
+		top:75px;
+		left:0;
+		z-index: 1;
+	}
+	.main >.timer_modity >.to_ri{
+		width: 20px;
+		height: 50px;
+		background: rgba(229,229,229,.9);
+		position: absolute;
+		top:75px;
+		left:980px;
+		z-index: 1;
+	}
+	/*衣服轮播图*/
+	.main >.timer_modity >.au_clothes{
+		width: 180px;
+		height: 225px;
+		/*background: #00f;*/
+		position: relative;
+		top:-215px;
+		left:1010px;
+	}
+	/*衣服轮播图左边*/
+	.main >.timer_modity >.au_clothes>#au_left{
+		width: 180px;
+		height: 225px;
+		position: absolute;
+		background:url(../image/auys1.jpg);
+		/*display: none;*/
+		top:0px;
+		left:0px;
+	}
+	/*衣服轮播图右边*/
+	.main >.timer_modity >.au_clothes>#au_right{
+		width: 180px;
+		height: 225px;
+		position: absolute;
+		background:url(../image/auys2.jpg);
+		top:0px;
+		left:0px;
+		display: none;
+	}
+	.main >.timer_modity >.au_clothes >ul{
+		position: absolute;
+		width: 30px;
+		height: 10px;
+		/*background: #f00;*/
+		top:200px;
+		left:76px;
+	}
+	.main >.timer_modity >.au_clothes >ul >li{
+		width: 10px;
+		height: 10px;
+		border-radius: 50%;
+		margin-right:  5px;
+		background: #342A2D;
+		float: left;
+		cursor: pointer;
+	}
+	/*f发现好货*/
+	.main >.good_modity{
+		width: 1349px;
+		height:444px;
+		position: relative;
+		overflow: hidden;
+	}
+	.main >.good_modity>.find_mod{
+		width:390px;
+		height:444px;
+		/*background: #0f0;*/
+		position: relative;
+		left:80px;
+		top:10px;
+	}
+	/*标题样式通用部分*/
+	.find_inn{
+		width:390px;
+		height: 50px;
+		position: relative;
+		background: #3B8D96;
+		background:linear-gradient(135deg, transparent 15px, #3B8D96 0px) top left;
+		background-repeat:no-repeat;   
+		overflow: hidden; 
+	}
+	.find_inn >i{
+		position: absolute;
+		width: 28px;
+		height: 28px;
+		background: url(../image/sprite_index@1x.png);
+		background-position: -190px -48px;
+		top:-4px;
+		left:-4px;
+	}
+	.find_inn >h3{
+		position: absolute;
+		color: #fff;
+		top:11px;
+		left:33px;
+	}
+	.find_inn >span{
+		position: relative;
+		font-size: 12px;
+		color:#fff;
+		top:16px;
+		left:290px;
+	}
+	.find_inn >span>i{
+		position: absolute;
+		width: 15px;
+		height:16px;
+		background: url(../image/sprite_index@1x.png);
+    	background-position: -154px -40px;
+    	top:0;
+    	left:78px;
+	}
+	/*手机物品栏*/
+	.main >.good_modity>.find_mod>.find_box{
+		width: 390px;
+		height:390px;
+		background: #fff;
+		position: relative;
+	}
+	.main >.good_modity>.find_mod>.find_box>.find_list{
+		width: 370px;
+		height:375px;
+		/*background: #f00;*/
+		position: relative;
+		left: 10px;
+		top:5px;
+	}
+	.main >.good_modity>.find_mod>.find_box>.find_list>ul>li{
+		float: left;
+		width: 184px;
+		height: 119px;
+		/*background: #00f;*/
+		border-bottom: 1px solid #ccc;
+		border-right: 1px solid #ccc;
+		position: relative;
+		cursor: pointer;
+ 	}
+	.main >.good_modity>.find_mod>.find_box>.find_list>ul>li:nth-child(2n){
+		border-right: 0;
+	}
+	.main >.good_modity>.find_mod>.find_box>.find_list>ul>li:nth-child(5){
+		border-bottom:  0;
+	}
+	.main >.good_modity>.find_mod>.find_box>.find_list>ul>li:nth-child(6){
+		border-bottom:  0;
+	}
+	.main >.good_modity>.find_mod>.find_box>.find_list>ul>li>p{
+		width: 80px;
+		height:40px;
+		font-size: 14px;
+		color:#4998a1;
+		line-height: 20px;
+		position: absolute;
+		top:15px;
+		left:20px;
+
+	}
+	.main >.good_modity>.find_mod>.find_box>.find_list>ul>li>a{
+		width: 185px;
+		height: 120px;
+		
+		position: absolute;
+		left:0;
+		top:0;
+		z-index: 1;
+	}
+	.main >.good_modity>.find_mod>.find_box>.find_list>ul>li>img{
+		width: 80px;
+		height: 80px;
+		position: absolute;
+		top:38px;
+		left: 104px;
+		
+	}
+	/*会买专辑*/
+	.main >.good_modity>.buy_mod{
+		width:390px;
+		height:444px;
+		/*background: #0f0;*/
+		position: relative;
+		left:480px;
+		top:-434px;
+		/*display: none;*/
+	}
+	/*对通用样式修改*/
+	.main >.good_modity>.buy_mod>.find_inn{
+		background: #6E3C81;
+		background:linear-gradient(135deg, transparent 15px, #6E3C81 0px) top left;
+	}
+	.main >.good_modity>.buy_mod>.find_inn>i{
+		background-position: 0px -159px;
+	}
+
+	.main >.good_modity>.buy_mod>.buy_list{
+		width: 390px;
+		height:390px;
+		background: #fff;
+		position: relative;
+	}
+	.main >.good_modity>.buy_mod>.buy_list>.list_mod{
+		/*background: #abc;*/
+		width: 360px;
+		height: 335px;
+		position: absolute;
+		top:5px;
+		left:15px;
+	}
+	/*轮播的隐藏控制点*/
+	#list_mod_one{
+		/*display: none;*/
+	}
+	#list_mod_two{
+		position: absolute;
+		top:5px;
+		display: none;
+	}
+	#list_mod_three{
+		position: absolute;
+		top:5px;
+		display: none;
+	}
+	/*轮播图隐藏的内容*/
+	.list_mod>.list_mod_top{
+		width: 360px;
+		height:175px;
+		/*background: #f00;*/
+		border-bottom:1px solid #ccc;
+		cursor: pointer;
+	}
+	.list_mod>.list_mod_top>p{
+		width: 360px;
+		height:16px;
+		font-size: 12px;
+		color: #111;
+		line-height: 42px;
+		margin-bottom: 28px;
+	}
+	.list_mod>.list_mod_top>img{
+		width: 110px;
+		height:110px;
+	}
+	#list_mod_buttom{
+		border-bottom:0;
+	}
+
+	/*轮播的左右按钮*/
+	.main >.good_modity>.buy_mod>#list_left{
+		width: 20px;
+		height:50px;
+		background: #F3F2F3;
+		position: absolute;
+		top:190px;
+		left:0;
+	}
+	.main >.good_modity>.buy_mod>#list_right{
+		width: 20px;
+		height:50px;
+		background: #F3F2F3;
+		position: absolute;
+		top:190px;
+		left:370px;
+	}
+	/*会买专辑轮播图下方的按钮设置*/
+	.main >.good_modity>.buy_mod >ul{
+		position: absolute;
+		width: 70px;
+		height: 12px;
+		/*background: #f00;*/
+		top:405px;
+		left:160px;
+
+	}
+	.main >.good_modity>.buy_mod >ul >li{
+		width: 8px;
+		height: 8px;
+		background: #C8C8C8;
+		margin-right: 12px;
+		float: left;
+		border-radius: 50%;
+		cursor: pointer;
+	}
+	.main >.good_modity >.rank_mod{
+	    position: relative;
+	    left: 880px;
+	    top: -878px;
+	    width: 390px;
+   		height: 444px;
+   		/*background: #f00;*/
+	}
+	/*排行榜*/
+	.main >.good_modity >.rank_mod>.find_inn>i{
+		background-position: -189px 0;
+	}
+	.main >.good_modity >.rank_mod>.find_inn{
+		background: #E66804;
+        background: linear-gradient(135deg, transparent 15px, #E66804 0px) top left;
+	}
+	.main >.good_modity >.rank_mod>.find_inn >span{
+		left: 270px;
+	}
+	.main >.good_modity >.rank_mod>.find_inn >span>i{
+		left: 99px;
+	}
+	.main >.good_modity >.rank_mod>.rank_box{
+		width: 390px;
+		height:386px;
+		background: #fff;
+		position: relative;
+	}
+	.main >.good_modity >.rank_mod>.rank_box>.rank_box_head{
+		width: 390px;
+		height:38px;
+	}
+	/*红线*/
+	#rank_line{
+		width: 78px;
+		height: 2px;
+		background: #f00;
+		position: absolute;
+		top:26px;
+		left:0;
+		border-radius: 1px; 
+	}
+	.main >.good_modity >.rank_mod>.rank_box>.rank_box_head>ul{
+		width: 390px;
+		height:18px;
+		line-height: 18px;
+		position: relative;
+		top:8px;
+	}
+	.main >.good_modity >.rank_mod>.rank_box>.rank_box_head>ul>li{
+		cursor: pointer;
+		float: left;
+		width: 77px;
+		height: 18px;
+		text-align: center;
+		border-right: 1px solid #ccc;
+		border-bottom:1px solid #ccc;
+	}
+	.main >.good_modity >.rank_mod>.rank_box>.rank_box_head>ul>li:nth-child(5){
+		border-right: 0;
+	}
+	.main >.good_modity >.rank_mod>.rank_box>.rank_box_main{
+		width: 370px;
+		height:333px;
+		position: absolute;
+		top:34px;
+		left:10px;
+		/*background: #00f;*/
+	}
+	.main >.good_modity >.rank_mod>.rank_box>.rank_box_main>ul{
+		position: absolute;
+		width: 369px;
+		height: 334px;
+	}
+	.main >.good_modity >.rank_mod>.rank_box>.rank_box_main>ul>li{
+		cursor: pointer;
+		width: 122px;
+		height:166px;
+		float: left;
+		border-right: 1px solid #ccc;
+		border-bottom:1px solid #ccc;
+		position: relative;
+
+	}
+	.main >.good_modity >.rank_mod>.rank_box>.rank_box_main>ul>li:nth-child(3n){
+		border-right: 0;
+	}
+	.main >.good_modity >.rank_mod>.rank_box>.rank_box_main>ul>li:nth-child(4){
+		border-bottom:0;
+	}
+	.main >.good_modity >.rank_mod>.rank_box>.rank_box_main>ul>li:nth-child(5){
+		border-bottom:0;
+	}
+	.main >.good_modity >.rank_mod>.rank_box>.rank_box_main>ul>li:nth-child(6){
+		border-bottom:0;
+	}
+	.main >.good_modity >.rank_mod>.rank_box>.rank_box_main>ul>li>img{
+		width: 100px;
+		height:100px;
+		position: absolute;
+		top:10px;
+		left:11px;
+	}
+	.main >.good_modity >.rank_mod>.rank_box>.rank_box_main>ul>li>p{
+		font-size: 12px;
+		color:#999;
+		width: 120px;
+		height: 32px;
+		line-height: 16px;
+		word-wrap: break-word;
+    	word-break: break-all;
+    	position: absolute;
+    	top:120px;
+    	left:0;
+	}
+	.main >.good_modity >.rank_mod>.rank_box>.rank_box_main>ul>li>i{
+		display: block;
+		width: 30px;
+		height: 40px;
+		position: absolute;
+		top:10px;
+		left:14px;
+		background: url(../image/sprite_index@1x.png);
+    	background-position: -100px -100px;
+    	z-index: 1;
+    	text-align: center;
+    	line-height: 40px;
+    	color: #fff;
+    	font-size: 14px;
+    	font-style:normal;
+	}
+	.main >.good_modity >.rank_mod>.rank_box>.rank_box_main>ul>li:nth-child(2)>i{
+		background-position: -50px -100px;
+	}
+	.main >.good_modity >.rank_mod>.rank_box>.rank_box_main>ul>li:nth-child(3)>i{
+		background-position: 0px -100px;
+	}
+	.main >.good_modity >.rank_mod>.rank_box>.rank_box_main>ul>li:nth-child(1)>i{
+		background-position: -100px -40px;
+	}
+
+	/*隐藏样式显示的开关*/
+	#rank_box_main_two{
+		position: absolute;
+		display: none;
+	}
+	#rank_box_main_three{
+		position: absolute;
+		display: none;
+	}
+	#rank_box_main_four{
+		position: absolute;
+		display: none;
+	}
+	#rank_box_main_five{
+		position: absolute;
+		display: none;
+	}
+	/*领券中心*/
+	.main > .prize{
+		width: 1349px;
+		height: 310px;
+		background: #F6F6F6;
+		position: relative;
+		overflow: hidden;
+	}
+	.main > .prize >.prize_our{
+		width: 790px;
+		height:270px;
+		/*background: #0f0;*/
+		position: relative;
+		left:80px;
+		top:20px;
+	}
+	.main > .prize >.prize_our>.find_inn{
+		width: 790px;
+		background: #EB2D14;
+        background: linear-gradient(135deg, transparent 15px, #EB2D14 0px) top left;
+	}
+	.main > .prize >.prize_our>.find_inn h3{
+		font-size: 20px;
+	}
+	.main > .prize >.prize_our>.find_inn span{
+		left: 680px;
+	}
+	.main > .prize >.prize_our>.prize_details{
+		width: 790px;
+		height: 215px;
+		background: #fff;
+	}
+	.main > .prize >.prize_our>.prize_details>ul{
+		margin-top: 5px;
+	}
+	.main > .prize >.prize_our>.prize_details>ul>li{
+		cursor: pointer;
+		width: 196px;
+		height: 195px;
+		border-right: 1px solid #ccc;
+		float: left;
+		position: relative;
+		color: red;
+	}
+	.main > .prize >.prize_our>.prize_details>ul>li >a{
+		/*因为前面有设置了一个z-index为1*/
+		z-index: 2;
+		width: 196px;
+		height: 195px;
+		position: absolute;
+		left: 0;
+		top: 0;
+		/*background: #f00;*/
+	}
+	.main > .prize >.prize_our>.prize_details>ul>li:nth-child(4){
+		border-right:0;	
+	}
+	.main > .prize >.prize_our>.prize_details>ul>li>.coupon{
+		width: 100px;
+		height: 177px;
+		z-index: 1;
+		position: relative;
+		top:15px;
+		left:15px;
+		background: #fff;
+		border-top: 3px solid #e93524;
+	}
+	.main > .prize >.prize_our>.prize_details>ul>li>img{
+		width: 140px;
+		height:140px;
+		position: absolute;
+		top:30px;
+		left:43px;
+
+	}
+	#coupon_price{
+		width: 100px;
+		height:36px;
+	}
+	#coupon_price>i{
+		font-size: 24px;
+		font-style:normal;
+	}
+	#coupon_mod{
+		width: 100px;
+		height:36px;
+		font-size: 12px;
+	}
+	#coupon_enough{
+		width: 100px;
+		height:66px;
+		background: #e7e7e7 url(../image/111111.jpg)repeat-x 0 0;
+	}
+	#coupon_enough>span{
+		position: absolute;
+		top:87px;
+		left: 10px;
+		width: 80px;
+		height: 36px;
+		line-height: 18px;
+		font-size: 12px;
+		color:#999;
+	}
+	#coupon_more{
+		width: 100px;
+		height:26px;
+		background: #E93524;
+		text-align: center;
+		line-height: 26px;
+		color: #fff;
+		font-size: 12px;
+	}
+	/*觅me探索生活*/
+	.main > .prize >.live{
+		width: 390px;
+		height: 270px;
+		/*background: #f00;*/
+		position: relative;
+		top:-250px;
+		left:880px;
+	}
+	.main > .prize >.live>.find_inn{
+		background: #545F9A;
+    background: linear-gradient(135deg, transparent 15px, #545F9A 0px) top left;
+	}
+	.main > .prize >.live>.find_inn>i{
+		background-position: 0px 29px;
+	}
+	.main > .prize >.live>.find_inn>span{
+		left: 310px
+	}
+	.main > .prize >.live>.find_inn>span>i{
+		left: 58px
+	}
+	.main > .prize >.live>.live_box{
+		width: 390px;
+		height:220px;
+		background: #fff;
+		position: relative;
+	}
+	.main > .prize >.live>.live_box>a>img{
+		width: 200px;
+		height: 140px;
+		position: absolute;
+		top:25px;
+		left:30px;
+	}
+	.main > .prize >.live>.live_box>a{
+		text-decoration:none;
+	}
+	#live_top{
+		width: 122px;
+		height:54px;
+		position: absolute;
+		top:6px;
+		left:255px;
+		color: #333;
+	    font-weight: 700;
+	    font-size: 14px;
+	    line-height: 18px;
+	}
+	/*觅me的左按钮*/
+	#live_le{
+		position: absolute;
+		width: 20px;
+		height: 50px;
+		background: #DDDDDD;
+		top:120px;
+		left:0;
+	}
+	/*觅me的右按钮*/
+	#live_ri{
+		position: absolute;
+		width: 20px;
+		height: 50px;
+		background: #DDDDDD;
+		top:120px;
+		left:370px;
+	}
+	/*觅me的的下方圆形按钮*/
+	#live_ul{
+		width: 95px;
+		height: 8px;
+		position: absolute;
+		/*background: #f00;*/
+		top:245px;
+		left:140px;
+	}
+	#live_ul >li{
+		float: left;
+		width: 8px;
+		height: 8px;
+		margin-right:  11px;
+		border-radius: 50%;
+		background: #C7C7C7;
+	}
+	#live_mid{
+		width: 122px;
+		height:36px;
+		position: absolute;
+		top:88px;
+		left:255px;
+		word-break: break-all;
+	    overflow: hidden;
+	    display: block;
+	    color: #999;
+	    font-size: 12px;
+	}
+	#live_bot{
+		width: 122px;
+		height:22px;
+		position: absolute;
+		top:160px;
+		left:255px;
+		line-height: 18px;
+    	color: #999;
+    	font-size: 12px;
+	}
+	/*开关*/
+	#live_box_two{
+		display: none;
+	}
+	#live_box_three{
+		display: none;
+	}
+	#live_box_four{
+		display: none;
+	}
+	#live_box_five{
+		display: none;
+	}
+	/*享生活*/
+	.main >.enjoy{
+		width: 1190px;
+		height: 585px;
+		margin-left: 80px;
+		background: #fff;
+		position: relative;
+	}
+	.main >.enjoy >.enjoy_top{
+		width: 1190px;
+		height: 55px;
+		background: url(../image/dian.png) repeat-x 0 25px;
+	
+	}
+	.main >.enjoy >.enjoy_top >h3{
+		position: absolute;
+		left:508px;
+		width: 173px;
+		height: 55px;
+		background: #fff;
+		line-height: 55px;
+		text-align:center;
+		color: #333333;
+	}
+	.main >.enjoy >.enjoy_main{
+		width: 1190px;
+		height: 530px;
+		/*background: #f00;*/
+	}
+	.main >.enjoy >.enjoy_main >ul{
+		width: 800px;
+		height: 530px;
+	}
+	.main >.enjoy >.enjoy_main >ul >li >a{
+		width: 390px;
+		height: 170px;
+		position: absolute;
+		/*background: #f00;*/
+		z-index: 2;
+	/*	top:0;
+		left: 0;*/
+	}
+	.main >.enjoy >.enjoy_main >ul >li{
+		cursor: pointer;
+		float: left;
+		width: 390px;
+		height: 170px;
+		margin-bottom: 6px;
+		margin-right: 5px;
+		background: #000;
+		position: relative;
+		overflow: hidden;
+	}
+	.main >.enjoy >.enjoy_main >ul >li >.enjoy_box{
+		position: absolute;
+		width: 140px;
+		height: 170px;
+		background: #498C94;
+		z-index: 1;
+	}
+	.main >.enjoy >.enjoy_main >ul >li >.enjoy_box >h4{
+		width: 100px;
+		height: 44px;
+		position: absolute;
+		top:30px;
+		left:17px;
+		line-height: 44px;
+		color: #fff;
+		text-align: center;
+		border-top: 2px solid #fff;
+		border-bottom: 2px solid #fff;
+	}
+	.main >.enjoy >.enjoy_main >ul >li >.enjoy_box >p{
+		width: 100px;
+		height: 32px;
+		font-size: 12px;
+		color: #fff;
+		position: absolute;
+		top:80px;
+		left:24px;
+	}
+	.main >.enjoy >.enjoy_main >ul >li >img{
+		position: absolute;
+		width: 400px;
+		height: 170px;
+	}
+	.main >.enjoy >.enjoy_main >.enjoy_main_rig{
+		width: 390px;
+		height: 530px;
+		/*background: #f00;*/
+		position: absolute;
+		top:55px;
+		left:800px;
+	}
+	.main >.enjoy >.enjoy_main >.enjoy_main_rig >.enjoy_pic{
+		width: 390px;
+		height: 350px;
+		background: rgba(32,34,35,.6);
+		position: relative;
+		z-index: 1;
+	}
+	/*阴影下的图片*/
+	.main >.enjoy >.enjoy_main >.enjoy_main_rig >.live_pic{
+		width: 390px;
+		height: 350px;
+		background: #f00;
+		position: absolute;
+		top:0;
+		
+	}
+	.main >.enjoy >.enjoy_main >.enjoy_main_rig >.live_pic >img{
+		display: none;
+	}
+	.main >.enjoy >.enjoy_main >.enjoy_main_rig >.live_pic >img:nth-child(1){
+		display: block;
+	}
+	/*左右按钮*/
+	#livele{
+		width: 20px;
+		height: 50px;
+		background: #584F4D;
+		position: absolute;
+		top:150px;
+		left:0;
+		z-index: 2;
+	}
+	#liveri{
+		width: 20px;
+		height: 50px;
+		background: #584F4D;
+		position: absolute;
+		top:150px;
+		left:370px;
+		z-index: 2;
+	}
+	/*下方圆形按钮*/
+	#liveli{
+		width: 100px;
+		height: 8px;
+		/*background: #f00;*/
+		position: absolute;
+		top:322px;
+		left:140px;
+		z-index: 2;
+	}
+	#liveli >ul{
+		position: absolute;
+		top:0;
+		left: 0px;
+	}
+	#liveli >ul >li{
+		width: 8px;
+		height: 8px;
+		background: #fff;
+		margin-right: 10px;
+		float: left;
+		border-radius: 50%;
+	}
+	#liveli >ul >li:nth-child(1){
+		background: #FD3131;
+	}
+	.main >.enjoy >.enjoy_main >.enjoy_main_rig >.live_pic >img{
+		width: 390px;
+		height: 350px;
+		position: absolute;
+	}
+	.main >.enjoy >.enjoy_main >.enjoy_main_rig >.enjoy_pic >.enjoy_pic_top{
+		width: 390px;
+		height: 38px;
+		background: rgba(54,59,62,9);
+		position: absolute;
+	}
+	.main >.enjoy >.enjoy_main >.enjoy_main_rig >.enjoy_pic >.enjoy_pic_top >h4{
+		line-height: 38px;
+		color: #fff;
+	}
+	.main >.enjoy >.enjoy_main >.enjoy_main_rig >.enjoy_pic >.enjoy_pic_top >span{
+		position: absolute;
+		width: 48px;
+		height: 38px;
+		top:8px;
+		right: 10px;
+	}
+	.main >.enjoy >.enjoy_main >.enjoy_main_rig >.enjoy_pic >i{
+		position: absolute;
+		top:130px;
+		left:167px;
+		background: url(../image/sprite_entrylive@1x.png);
+		background-position: 0px -102px ;
+		width: 68px;
+		height: 68px;
+	}
+	.main >.enjoy >.enjoy_main >.enjoy_main_rig >.enjoy_pic >.enjoy_pic_top >span >i{
+		display: block;
+		width: 16px;
+		height: 16px;
+		background: url(../image/sprite_entrylive@1x.png);
+		background-position: -205px -128px;
+		position: absolute;
+		top:3px;
+		left:38px;
+	}
+	.main >.enjoy >.enjoy_main >.enjoy_main_rig >.enjoy_pic >img{
+		width: 390px;
+		height: 350px;
+		/*background: #00f;*/
+		position: absolute;
+	}
+	.main >.enjoy >.enjoy_main >.enjoy_main_rig >ul{
+		width: 390px;
+		height: 170px;
+		position: absolute;
+		top:352px;
+		left: 0;
+		
+	}
+	.main >.enjoy >.enjoy_main >.enjoy_main_rig >ul >li{
+		background: #0f0;
+		position: relative;
+		width: 190px;
+		height: 170px;
+		margin-right: 5px;
+		float: left;
+		overflow: hidden;
+	}
+	.main >.enjoy >.enjoy_main >.enjoy_main_rig >ul >li >a{
+		width: 190px;
+		height: 170px;
+		/*background: #f00;*/
+		position: absolute;
+		z-index: 2;
+	}
+	.main >.enjoy >.enjoy_main >.enjoy_main_rig >ul >li >img{
+		position: absolute;
+		
+	}
+	.main >.enjoy >.enjoy_main >.enjoy_main_rig >ul >li >.enjoy_bot{
+		width: 190px;
+		height: 80px;
+		position: absolute;
+		top:90px;
+		left:0;
+		background: rgba(176,73,66,.7);
+	}
+	.main >.enjoy >.enjoy_main >.enjoy_main_rig >ul >li >.enjoy_bot >h4{
+		position: absolute;
+		top:5px;
+		left:42px;
+		width: 100px;
+		height: 33px;
+		border-top: 2px solid #fff;
+		border-bottom: 2px solid #fff;
+		color: #fff;
+		text-align: center;
+		line-height: 33px;
+	}
+	.main >.enjoy >.enjoy_main >.enjoy_main_rig >ul >li >.enjoy_bot >p{
+		position: absolute;
+		top:40px;
+		left:42px;
+		width: 100px;
+		height: 33px;
+		font-size: 14px;
+		color: #fff;
+		text-align: center;
+		line-height: 33px;
+	}
+	/*电脑数码*/
+	.main>.com{
+		width:1349px;
+		height:523px;
+		position: relative;
+		background: #F6F6F6;
+		overflow: hidden;
+	}
+	.main>.com>.com_box{
+		width: 1190px;
+		height:523px;
+		background: #fff;
+		position: relative;
+		left: 80px;
+	}
+	.main>.com>.com_box>.com_til{
+		width: 1190px;
+		height: 58px;
+		background: #4489A7;
+		position: relative;
+	}
+	.main>.com>.com_box>.com_til>h3{
+		font-size: 22px;
+		color:#fff;
+		font-weight: 400;
+		position: absolute;
+		left:30px;
+		top:14px;
+	}
+	.main>.com>.com_box>.com_til>i{
+		display: block;
+		width: 20px;
+		height:20px;
+		position: absolute;
+		background: url(../image/pt_qrcode@1x.png);
+		top:20px;
+		left:130px;
+	}
+	.main>.com>.com_box>.com_til>ul{
+		position: absolute;
+		left:300px;
+		top:18px;
+	}
+	.main>.com>.com_box>.com_til>ul>li{
+		float: left;
+		padding: 4px 13px; 
+		border:1px solid #77B6C3;
+		margin-left: 10px;
+		margin-right: 4px;
+		background: #68A0B7;
+		color: #fff;
+		font-size: 12px;
+	}
+	.main>.com>.com_box>.com_til>ul>li:hover{
+		border:1px solid #fff;
+		cursor: pointer;
+	}
+	/*展示图*/
+	.main>.com>.com_box>.com_more{
+		width: 1170px;
+		height:465px;
+		background: #fff;
+		position: relative;
+		left:10px;
+	}
+	/*左边的展示*/
+	.main>.com>.com_box>.com_more>.com_left{
+		width: 584px;
+		height:410px;
+		/*background: #f00;*/
+		position: relative;
+		border-right: 1px solid #ccc;
+	}
+	/*展示图的最左边*/
+	.com_pic_left{
+		/*background: #f00;*/
+		position: relative;
+		width: 185px;
+		height: 260px;
+		overflow: hidden;
+		z-index: 1;
+		cursor: pointer;
+	}
+	.com_pic_left >img{
+		
+		width: 195px;
+		position: absolute;
+		left:0px;
+	}
+	/*右上角*/
+	.com_ul{
+		width: 376px;
+		height:260px;
+		/*background: #f00;*/
+		position: relative;
+		top:-260px;
+		left:200px;
+	}
+	.com_ul >li{
+		width: 188px;
+		height: 130px;
+		/*background: #0f0;*/
+		float: left;
+		position: relative;
+	}
+	.com_ul >li >a{
+		width: 188px;
+		height: 130px;
+		position: absolute;
+		/*background: #f00;*/
+		z-index: 2;
+	}
+	.com_ul >li>.com_top{
+		width: 56px;
+		height: 21px;
+		font-size: 12px;
+		color:#70BAEA;
+		position: absolute;
+		top:20px;
+		left:0;
+	}
+	.com_ul >li>.com_bot{
+		width: 50px;
+		height: 54px;
+		font-size: 12px;
+		position: absolute;
+		top:50px;
+	}
+	.com_ul >li>img{
+		position: absolute;
+		top:25px;
+		left:70px;
+	}
+	/*底部左边*/
+	.com_bot_left{
+		position: absolute;
+		top:270px;
+		left:0;
+		width: 193px;
+		height:130px;
+		background: #f00;
+		overflow: hidden;
+		cursor: pointer;
+	}
+	.com_bot_left >a{
+		width: 193px;
+		height: 130px;
+		position: absolute;
+		background: #f00;
+	}
+	.com_bot_left >img{
+		width: 200px;
+		height: 130px;
+		position: absolute;
+		left: 0px;
+	}
+	/*底部中间*/
+	.com_bot_mid{
+		position: absolute;
+		top:270px;
+		left:195px;
+		width: 193px;
+		height:130px;
+	}
+	/*底部右边*/
+	.com_bot_rig{
+		position: absolute;
+		top:270px;
+		left:390px;
+		width: 193px;
+		height:130px;
+	}
+	.main>.com>.com_box>.com_more>.com_right{
+		width: 585px;
+		height:410px;
+		background: #fff;
+		position: relative;
+		top:-410px;
+		left:585px;
+	}
+	.main>.com>.com_box>.com_more>.com_right>.com_pic_left{
+		left:-374px;
+	}
+	.main>.com>.com_box>.com_more>.com_bottom{
+		width: 1170px;
+		height: 35px;
+		position: absolute;
+		/*background: #f00;*/
+		top:420px;
+		left:0;
+		overflow: hidden;
+	}
+	/*电脑数码最下方的图片滑动的的左按钮*/
+	.main>.com>.com_box>.com_more>.com_bottom >#com_bo_le{
+		position: absolute;
+		width: 12px;
+		height: 35px;
+		background: #f00;
+	}
+	/*电脑数码最下方的图片滑动的的右按钮*/
+	.main>.com>.com_box>.com_more>.com_bottom >#com_bo_ri{
+		position: absolute;
+		width: 12px;
+		height: 35px;
+		background: #f00;
+		left: 1157px;
+	}
+	.main>.com>.com_box>.com_more>.com_bottom>ul{
+		position: absolute;
+		overflow: hidden;
+		width: 1170px;
+		top:0;
+		left: 0;
+		
+	}
+	.main>.com>.com_box>.com_more>.com_bottom>ul>li{
+		width: 94px;
+		float: left;
+	}
+	/*电脑数码最下方的图片滑动的隐藏层*/
+	#com_bottom_two{
+		position: absolute;
+		left:1170px;
+		
+	}
+	#com_bottom_three{
+		position: absolute;
+		left:-1170px;
+	}
+	/*玩3c*/
+	.main>.play{
+		width: 1349px;
+		height: 523px;
+		/*background: #f00;*/
+		position: relative;
+	}
+	/*玩3c左边*/
+	.main >.play >.play_left{
+		width: 590px;
+		height: 523px;
+		/*background: #00f;*/
+		position: relative;
+		top:0;
+		left:80px;
+	}
+	/*通用样式以玩3c为样板*/
+	/*3c的头部*/
+	.play_til{
+		width: 590px;
+		height: 58px;
+		background: #f0f;
+		position: relative;
+	}
+	.play_til>h3{
+		position: absolute;
+		color: #fff;
+		top:14px;
+		left:30px;
+	}
+	.play_til >ul{
+		position: absolute;
+		top:14px;
+		left:200px;
+	}
+	.play_til >ul >li{
+		float: left;
+		border:1px solid #6FCFCE;
+		padding: 4px 13px;
+		font-size: 12px;
+		color: #fff;
+		margin-right: 12px;
+	}
+	/*玩3c的内容*/
+	.play_main{
+		width: 590px;
+		height: 465px;
+		background: #fff;
+		position: relative;
+		overflow: hidden;
+	}
+	/*玩3c的左边内容*/
+	.play_main >.play_main_le{
+		/*width: 193px;看看效果*/
+		width: 183px;
+		height: 260px;
+		position: absolute;
+		top:0;
+		left:10px;
+		background: #f0f;
+		overflow: hidden;
+	}
+	.play_main >.play_main_le >img{
+		width: 193px;
+		position: absolute;
+	}
+	/*玩3c的右边内容*/
+	.play_main >.play_main_ul{
+		width: 376px;
+		height: 260px;
+		position: absolute;
+		top:0;
+		left:210px;
+		/*background: #f00;*/
+	}
+	.play_main >.play_main_ul >li{
+		width: 186px;
+		height: 128px;
+		background: #fff;
+		border:1px solid #ccc;
+		float: left;
+		position: relative;
+	}
+	.play_main >.play_main_ul >li >a{
+		width: 186px;
+		height: 128px;
+		/*background: #f00;*/
+		position: absolute;
+		z-index: 2;
+	}
+	.play_main >.play_main_ul >li >p:nth-child(2){
+		width: 80px;
+		height: 21px;
+		font-size: 12px;
+		margin-top: 10px;
+		margin-left: 10px;
+	}
+	.play_main >.play_main_ul >li >p:nth-child(3){
+		width: 50px;
+		height: 54px;
+		font-size: 12px;
+		margin-top: 10px;
+		margin-left: 10px;
+	}
+	.play_main >.play_main_ul >li >img{
+		width: 100px;
+		height: 100px;
+		background: #0f0;
+		position: absolute;
+		top:28px;
+		left:75px;
+	}
+	/*玩3c的内容下方左边*/
+	.play_main >.play_main_bl{
+		width: 183px;
+		height: 130px;
+		position: absolute;
+		top:270px;
+		left:10px;
+		background: #0f0;
+		overflow: hidden;
+	}
+	.play_main >.play_main_bl >img{
+		width: 193px;
+		height: 130px;
+		position: absolute;
+	}
+	/*玩3c的内容下方中间*/
+	.play_main >.play_main_bm{
+		width: 183px;
+		height: 130px;
+		position: absolute;
+		top:270px;
+		left:205px;
+		background: #00f;
+		overflow: hidden;
+	}
+	.play_main >.play_main_bm >img{
+		width: 193px;
+		height: 130px;
+		position: absolute;
+	}
+	/*玩3c的内容下方右边*/
+	.play_main >.play_main_br{
+		width: 183px;
+		height: 130px;
+		position: absolute;
+		top:270px;
+		left:403px;
+		background: #ff0;
+		overflow: hidden;
+	}
+	.play_main >.play_main_br >img{
+		width: 193px;
+		height: 130px;
+		position: absolute;
+	}
+	/*玩3c的底部内容*/
+	/*左边*/
+	#le_ma_le{
+		position: absolute;
+		left:-590px;
+	}
+	#le_ma_mid{
+		position: absolute;
+		left:0px;
+	}
+	#le_ma_ri{
+		position: absolute;
+		left:590px;
+	}
+	/*右边*/
+	#ri_ma_le{
+		position: absolute;
+		left:-590px;
+	}
+	#ri_ma_mid{
+		position: absolute;
+		left:0px;
+	}
+	#ri_ma_ri{
+		position: absolute;
+		left:590px;
+	}
+	/*左右按钮*/
+	#mai_le{
+		width: 12px;
+		height: 35px;
+		background: #f00;
+		position: absolute;
+		left: 0;
+		top:410px;
+	}
+	#mai_ri{
+		width: 12px;
+		height: 35px;
+		background: #f00;
+		position: absolute;
+		left: 578px;
+		top:410px;
+	}
+	.play_main >.play_main_bot{
+		width: 590px;
+		height: 35px;
+		position: absolute;
+		top:410px;
+		left:0;
+		background: #fff;
+	}
+	.play_main >.play_main_bot >li{
+		float: left;
+		width: 70px;
+		height: 35px;
+		margin-left: 15px;
+		margin-right: 12px;
+		background: #f00;
+		overflow: hidden;
+	}
+
+	/*玩3c右边*/
+	.main >.play >.play_right{
+		width: 590px;
+		height: 523px;
+		/*background: #0f0;*/
+		position: relative;
+		top:-523px;
+		left:680px;
+	}
+	#ri_le{
+		width: 12px;
+		height: 35px;
+		background: #f00;
+		position: absolute;
+		left: 0;
+		top:410px;
+	}
+	#ri_ri{
+		width: 12px;
+		height: 35px;
+		background: #f00;
+		position: absolute;
+		left: 578px;
+		top:410px;
+	}
+
+
+	
+
+

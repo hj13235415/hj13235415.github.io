@@ -1,0 +1,206 @@
+	*{
+		margin: 0;
+		padding: 0;
+	}
+	body{
+		width: 1349px;
+		position: absolute;
+		left:50%;
+		margin-left: -674px;
+	}
+	.header{
+		height:100px;
+		width:1349px;
+		/*background: #f00;*/
+		position: relative;
+		box-shadow: 0 2px 2px 2px #ccc;
+	}
+	.header >a >img{
+		position: absolute;
+		top:24px;
+		left:80px;
+		width: 160px;
+		height:50px;
+		background: url(../image/icon.png);
+		background-position: 0px 0px;
+	}
+	.header span{
+		position: absolute;
+		left:270px;
+		top:37px;
+		font-size: 24px;
+	}
+	.header span:nth-child(3){
+		position: absolute;
+		left:990px;
+		top:37px;
+		font-size: 16px;
+	}
+	.box-reg{
+		height:750px;
+		position: relative;
+		border-bottom: 1px solid #ccc;
+	}
+	.box-reg >.reg{
+		width: 400px;
+		height: 650px;
+		margin-left: 200px;
+		position: absolute;
+		top: 50px;
+	}
+	.box{
+		position: relative;
+		margin-top: 16px;
+	}
+	.box>input{ 
+		width:282px;
+		height:50px;
+		padding-left:114px;
+	}
+	#reg_pho>label{
+		border-right: 1px solid #A9A9A9;
+	}
+	.box>label{ 
+		display: inline-block;
+		width:80px;
+		height:53px;
+		position: absolute;
+		line-height: 53px;
+		margin-left: 20px;
+	}
+	.box>i{
+		font-size: 12px;
+		color:#ccc;
+		/*display: none;*/
+		opacity: 0;
+		margin-left: 20px;
+	}
+	.fal{
+		position: absolute;
+		display: block;
+		top:58px;
+		left:0;
+		width: 16px;
+		height:16px;
+		background: url(../image/icon.png);
+		background-position: -17px -100px;
+		display: none;
+	} 
+	.Verification{
+		width: 110px;
+		height:46px;
+		background: #f00;
+		position: absolute;
+		top: 4px;
+		left:285px;
+	}
+	.Verification >img{
+		width: 110px;
+		height:46px;
+		position: absolute;
+		display: none;
+	}
+	.reg_sub{
+		margin-top: 20px;
+	}
+	.reg_sub >input{
+		width: 400px;
+		height:54px;
+		background: #EE2222;
+		border:0;
+	}
+	.box-reg > .other_reg{
+		width: 500px;
+		height:604px;
+		/*background: #f0f;*/
+		position: absolute;
+		top: 66px;
+		left:690px;
+		border-left: 1px solid #ccc;
+	}
+	.Right{
+		position: absolute;
+		width: 16px;
+		height:16px;
+		top:19px;
+		left:360px;
+		background: url(../image/icon.png);
+		display: none;
+		background-position: 0px -117px;
+	}
+	.box-reg > .other_reg >.company{
+		position: relative;
+		left:110px;
+		height: 90px;
+		border-bottom:1px solid #ccc;
+	}
+	.box-reg > .other_reg >.company >a{
+		display: block;
+		width: 160px;
+		height:30px;
+		/*background: #f00;*/
+		font-size: 12px;
+		position: relative;
+	}
+	.box-reg > .other_reg >.company >a >i{
+		display: block;
+		width: 30px;
+		height:30px;
+		/*background: #f0f;*/
+		background: url(../image/icon.png);
+		background-position: 0px -50px;
+	}
+	.box-reg > .other_reg >.company >a >span{
+		width: 120px;
+		height:30px;
+		top:0px;
+		left:30px;
+		position: absolute;
+		line-height: 30px;
+		text-align: center;
+	}
+	.box-reg > .other_reg >.inter{
+		width: 170px;
+		height:10px;
+		/*background: #00f;*/
+		position: absolute;
+		top:130px;
+		left:110px;
+	}
+	.box-reg > .other_reg >.inter >a{
+		display: block;
+		width: 160px;
+		height: 30px;
+		font-size: 12px;
+		position: relative;
+	}
+	.box-reg > .other_reg >.inter >a >i{
+		display: block;
+		width: 30px;
+		height:30px;
+		/*background: #f0f;*/
+		background: url(../image/icon.png);
+		background-position: -50px -50px;
+	}
+	.box-reg > .other_reg >.inter >a >span{
+		width: 120px;
+		height: 30px;
+		top: 0px;
+		left: 30px;
+		position: absolute;
+		line-height: 30px;
+		text-align: center;
+		font-size: 14px;
+		line-height: 15px;
+	}
+	.que{
+		position: fixed;
+		right: 1px;
+		top:120px;
+		width: 33px;
+		height:135px;
+		background: #f00;
+		background: url(../image/icon.png);
+		/*background-position: -367px 0px;*/
+		background-position: -334px 0px;
+	}

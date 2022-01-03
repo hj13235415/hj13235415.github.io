@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>登录页面</title>
+	
+	<link rel="stylesheet" href="./css/sign.css">
+	<script src="./jquery/jquery.min.js"></script>
+	
+</head>
+<body>
+	<!-- 登录页面的头部 -->
+	<div class="header">
+		<div class="logo">
+			<a href="">
+				<img src="./image/logo.png" alt="">
+			</a>
+			<b><img src="./image/l-icon.png" alt=""></b>
+			<a href="javascript:;" id="ques"><b>登录页面，调查问卷</b></a>
+		</div>	
+	</div>
+	<!-- 网络安全法 -->
+	<div class="rule">
+		<i></i>
+		<p>依据《网络安全法》，为保障您的账户安全和正常使用，请尽快完成手机号验证！ 新版《京东隐私政策》已上线，将更有利于保护您的个人隐私。</p>
+	</div>
+	<div class="register">
+		<img src="./image/sign_1.jpg" alt="">
+		<div class="register_sign">
+			<div class="sign_left">
+				<p>扫码登录</p>
+			</div>
+			<div class="sign_right">
+				<p>账号登录</p>
+			</div>
+			<div class="sign_QR">
+				<div class="device">
+					<!-- 二维码图片 -->
+					<div id="QR">
+						<img src="./image/show.png" alt="">
+						<img src="./image/phone-orange.png" alt="">
+					</div>
+				<!-- 提示用手机扫码登陆 -->	
+				</div>
+				<div class="sweep">
+					<ul>
+						<li>打开 <a href="javascript:;">手机京东</a>  </li>
+						<li>扫描二维码</li>
+					</ul>
+				</div>
+				<!-- 提示用手机扫码登陆的好处 -->	
+				<div class="adva">
+					<ul>
+						<li><i></i>免输入</li>
+						<li><i></i>更快</li>
+						<li><i></i>更安全</li>
+					</ul>
+				</div>
+			</div>
+			<!-- 账号密码登陆 -->
+			<div class="sign_pwd" id="sign_one">
+				<div class="login_name">
+					<label for="loginname"></label>
+					<input type="text" name="loginname" placeholder="邮箱/用户名/已验证手机">
+					
+				</div>
+				<div class="login_pass">
+					<label for="loginpass"></label>
+					<input type="password" name="loginpass" placeholder="密码">
+					
+				</div>
+				<a href="">忘记密码</a>
+				<div class="login_go">
+					<input type="button" value="登陆"></input>
+				</div>
+			</div>
+			<!-- 其他的登陆方式 -->
+			<div class="land">
+				<ul>
+					<li><i></i><span>QQ</span></li>
+					<li><i></i>微信</li>
+					<li><i></i><a href="">立即注册</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+		<div class="links">
+			<ul>
+				<li><a href="">关于我们</a>|</li>
+				<li><a href=""> 联系我们</a>|</li>
+				<li><a href="">人才招聘</a>|</li>
+				<li><a href="">商家入驻</a>|</li>
+				<li><a href="">广告服务</a>|</li>
+				<li><a href="">手机京东</a>|</li>
+				<li><a href="">友情链接 </a>|</li>
+				<li><a href="">销售联盟</a>|</li>
+				<li><a href="">京东社区</a>|</li>
+				<li><a href="">京东公益</a>|</li>
+				<li><a href="">English Site</a></li>
+			</ul>
+		</div>
+		<div class="copyright">Copyright © 2004-2017  京东JD.com 版权所有</div>
+	</div>
+</body>
+<script src="./js/sign.js"></script>
+</html>

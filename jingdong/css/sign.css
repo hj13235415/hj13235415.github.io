@@ -1,0 +1,431 @@
+	*{
+		padding:0;
+		margin:0;
+	}
+	li{
+		list-style: none;
+	}
+	body{
+		width: 1349px;
+		position: absolute;
+		left:50%;
+		margin-left: -674px;
+	}
+	/*登录页面的logo部分*/
+	.header{
+		/*border:1px solid red;*/
+		/*height:100px;*/
+		/*background: #f99;*/
+		/*position: relative;*/
+	}
+	.header > .logo{
+		width: 300px;
+		height:60px;
+		margin-left: 13%;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		position: relative;
+	
+	}
+	.header > .logo >a{
+		display: block;
+		width: 180px;
+		height:60px; 
+		text-decoration: none;
+	}
+	.header > .logo >b{
+		/*border:1px solid red;*/
+		/*display: block;*/
+		/*background: url(../image/l-icon.png) ;*/
+		position: absolute;
+		left: 200px;
+		top: 20px;	
+	}
+	.header > .logo >#ques{
+		width: 136px;
+		height:18px; 
+		position: absolute;
+		top: 30px;
+		left: 900px;
+	}
+	.header > .logo >#ques >b{
+		font-size:12px;
+
+	}
+	/*京东网络安全法*/
+	.rule{
+		height: 38px;
+		background-color: #FFF8F0;
+		line-height: 38px;
+		font-size:12px;
+		text-align: center;
+	}
+	.rule >p{
+		width: 780px;
+		margin-left: 20%;
+		color:#FFA258;
+	}
+	.register{
+		width: 1349px;
+		height:470px;
+		background: #030F1F;
+		position: relative;
+		overflow: hidden;
+	}
+	/*登录界面的背景图*/
+	.register >img{
+		width: 990px;
+		height:470px;
+		position: absolute;
+		left:50%;
+		margin-left: -495px;
+	}
+	/*账号登录和扫码登录*/
+	.register >.register_sign{
+		width: 346px;
+		/*密码登陆的情况下是330px*/
+		/*height:330px;*/
+		/*扫码登陆的情况下是361px*/
+		height:361px;
+		background: #fff;
+		position: absolute;
+		top:20px;
+		left:825px;
+	}
+	/*扫码登录*/
+	.register >.register_sign >.sign_left{
+		width: 173px;
+		height:55px;
+		/*background-color: #f00;*/
+		float: left;
+		line-height: 55px;
+		text-align: center;
+		font-size: 18px;
+		color: red;
+		border-bottom: 1px solid #ccc;
+		cursor: pointer;
+	}
+	/*账号登录*/
+	.register >.register_sign >.sign_right{
+		width: 173px;
+		height:55px;
+		/*background-color: #f00;*/
+		float: left;
+		line-height: 55px;
+		text-align: center;
+		font-size: 18px;
+		color: #000;
+		border-bottom: 1px solid #ccc;
+		cursor: pointer;
+	}
+	/*扫二维码登陆的状态下*/
+	.register >.register_sign > .sign_QR{
+		/*background: #f00;*/
+		/*height:10px;*/
+		position: relative;
+		top:56px;
+		/*display: none;*/
+	}
+	.register >.register_sign > .sign_QR>.device{
+		width:345px;
+		height:195px;
+		/*background: #f00;*/
+		position: relative;
+		/*top: 56px;*/
+	}
+	/*清除浮动*/
+	.register >.register_sign > .sign_QR >.device::after{
+            content: '';
+            display: block;
+            clear: both;
+	}
+	/*二维码的位置*/
+	.register >.register_sign >.sign_QR >.device >#QR{
+		
+	}
+	.register >.register_sign >.sign_QR >.device >#QR >img:nth-child(1){
+		position: absolute;
+		left: 95px;
+		top:25px;
+	}
+	.register >.register_sign >.sign_QR >.device >#QR >img:nth-child(2){
+		position: absolute;
+		left: 200px;
+		top:10px;
+		display: none;
+	}
+	/*二维码使用*/
+	.register >.register_sign >.sign_QR >.sweep{
+		width: 345px;
+		height: 18px;
+		/*background: #f00;*/
+		position: relative;
+		/*top: 60px;*/
+	}
+	.register >.register_sign >.sign_QR >.sweep >ul{
+		height: 18px;
+	}
+	.register >.register_sign >.sign_QR >.sweep >ul >li{
+		position: absolute;
+		/*float: left;*/
+		top: 0px;
+		/*width: 50px;*/
+		/*background: #0f0;*/
+		text-align: center;
+		font-size: 12px;
+		list-style: none;
+		color:#000;
+	}
+	/*使用说明的图标的位置*/
+	.register >.register_sign >.sign_QR >.sweep >ul >li:nth-child(1){
+		left:95px;
+	}
+	.register >.register_sign >.sign_QR >.sweep >ul >li:nth-child(2){
+		left:180px;
+	}
+	.register >.register_sign >.sign_QR >.sweep >ul >li >a{
+		text-decoration:none;
+		color: red;
+	}
+	/*二维码扫描登陆的好处*/
+	.register >.register_sign >.sign_QR >.adva{
+		width: 345px;
+		height:25px;
+		position: relative;
+		top:5px;
+		/*background: #f00;*/
+	}
+	.register >.register_sign >.sign_QR >.adva >ul{
+		height: inherit;
+		/*background: #f0f;*/
+		margin-left: 65px;
+	}
+	.register >.register_sign >.sign_QR >.adva >ul >li{
+		width: 68px;
+		float: left;
+		/*background: #00f;*/
+		line-height: 25px;
+		text-align: center;
+		font-size:12px;
+		color:#ccc;
+		position: relative;
+		margin-left: 10px;
+	}
+	.register >.register_sign >.sign_QR >.adva >ul >li >i{
+		width: 25px;
+		height: 25px;
+		top:0px;
+		position: absolute;
+		background:url(../image/qr-coagent.png) no-repeat;
+	}
+	/*二维码扫描登陆的好处的图标的位置*/
+	.register >.register_sign >.sign_QR >.adva >ul >li:nth-child(1) >i{
+		left:-13px;
+		background-position:0px 0px;
+	}
+	.register >.register_sign >.sign_QR >.adva >ul >li:nth-child(2) >i{
+		left:-9px;
+		background-position:-27px 0px;
+	}
+	.register >.register_sign >.sign_QR >.adva >ul >li:nth-child(3) >i{
+		left:-13px;
+		background-position:-54px 0px;
+	}
+	.register >.register_sign >.sign_QR::after{
+            content: '';
+            display: block;
+            clear: both;
+    }
+    /*使用其他方式登陆*/
+	.register >.register_sign >.land{
+		width: 345px;
+		height:50px;
+		background: #FCFCFC;
+		position: absolute;
+		bottom:0px;
+		border-top:1px solid #E0DEDE;
+	}
+	.register >.register_sign >.land >ul{
+		margin-left: 20px;
+	}
+	.register >.register_sign >.land >ul >li{
+		float: left;
+		line-height: 50px;
+		font-size:12px;
+		position: relative;
+		text-align: center;
+	}
+	.register >.register_sign >.land >ul >li:nth-child(1){
+		width: 68px;
+	}
+	/*使用其他方式登陆图标的位置*/
+	.register >.register_sign >.land >ul >li:nth-child(1) >i{
+		width: 19px;
+		height:18px;
+		/*display: block;*/
+		top:17px;
+		left:0px;
+		position: absolute;
+		background-image: url(../image/QQ-weixin.png);
+
+	}
+	.register >.register_sign >.land >ul >li:nth-child(2){
+		/*margin-left: 20px;*/
+		width: 68px;
+	}
+	.register >.register_sign >.land >ul >li:nth-child(2) >i{
+		width: 19px;
+		height:18px;
+		/*display: block;*/
+		top:17px;
+		left:0px;
+		position: absolute;
+		background-image: url(../image/QQ-weixin.png) ;
+		background-position:-58px -54px;
+	}
+	/*立即注册*/
+	.register >.register_sign >.land >ul >li:nth-child(3){
+		margin-left: 100px;
+		font-size: 14px;
+		
+		width: 77px;
+	}
+	.register >.register_sign >.land >ul >li:nth-child(3)>i{
+		width: 16px;
+		height:16px;
+		top:17px;
+		left:-8px;
+		position: absolute;
+		background-image: url(../image/pwd-icons-new.png); 
+		background-position:-104px -75px;
+	}
+	.register >.register_sign >.land >ul >li:nth-child(3)>a{
+		text-decoration:none;
+		color:red;
+	}
+	/*密码登陆*/
+	.register >.register_sign >.sign_pwd{
+		top:56px;
+		position: relative;
+		display: none;
+	}
+	.register >.register_sign >.sign_pwd >.login_name{
+		width: 300px;
+		height:38px;
+		/*background: #ff0;*/
+		margin-left: 22px;
+		position: relative;
+		margin-top: 25px;
+	}
+	.register >.register_sign >.sign_pwd >.login_name >label{
+		position: absolute;
+		display: block;
+		top:0px;
+		width: 36px;
+		height:36px;
+		border:1px solid #BDBDBD;
+		border-right: 0;
+		background: #f00;
+		background-image: url(../image/pwd-icons-new.png); 
+		background-position:0px 0px;
+
+	}
+	.register >.register_sign >.sign_pwd >.login_name >input{
+		position: absolute;
+		top:0px;
+		left:37px;
+		height:34px;
+		width: 258px;
+	}
+/*	.register >.register_sign >.sign_pwd >.login_name >b{
+		font-size: 14px;
+		color:#000;
+		position: absolute;
+		top:12px;
+		left:50px;
+	}*/
+	.register >.register_sign >.sign_pwd >.login_pass{
+		width: 300px;
+		height:38px;
+		/*background: #ff0;*/
+		margin-left: 22px;
+		position: relative;
+		margin-top: 15px;
+	}
+	.register >.register_sign >.sign_pwd >.login_pass >label{
+		position: absolute;
+		display: block;
+		top:0px;
+		width: 36px;
+		height:36px;
+		border:1px solid #BDBDBD;
+		border-right: 0;
+		background: #f00;
+		background-image: url(../image/pwd-icons-new.png); 
+		background-position:-50px 0px;
+	}
+	.register >.register_sign >.sign_pwd >.login_pass >input{
+		position: absolute;
+		top:0px;
+		left:37px;
+		height:34px;
+		width: 258px;
+	}
+/*	.register >.register_sign >.sign_pwd >.login_pass >b{
+		font-size: 14px;
+		color:#000;
+		position: absolute;
+		top:12px;
+		left:50px;
+	}*/
+	.register >.register_sign >.sign_pwd >a{
+		position: absolute;
+		top:105px;
+		left:275px;
+		text-decoration:none;
+		font-size: 12px;
+		color:#000;
+
+	}
+	.register >.register_sign >.sign_pwd >.login_go >input{
+		/*display: block;*/
+		width: 300px;
+		height:33px;
+		background: #f00;
+		border:0px;
+		margin-left: 22px;
+		margin-top: 45px;
+	}
+	.footer{
+		height:150px;
+		/*background: #f00;*/
+		position: relative;
+	}
+	.footer >.links{
+		width: 990px;
+		height:18px;
+		position: absolute;
+		top:20px;
+		left:188px;
+	}
+	.footer >.links >ul >li{
+		font-size: 12px;
+		list-style: none;
+		float: left;
+	}
+	.footer >.links >ul >li >a{
+		text-decoration: none;
+		width: 52px;
+		color:#000;
+		margin: 0 15px;
+	}
+	.footer >.copyright{
+		width: 990px;
+		height:18px;
+		position: absolute;
+		top:50px;
+		left:188px;
+		text-align: center;
+		line-height: 18px;
+		font-size: 12px;
+	}

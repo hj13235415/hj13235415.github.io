@@ -1,0 +1,1304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>京东详情页</title>
+	<link rel="stylesheet" href="./css/header.css">
+	<link rel="stylesheet" href="./css/detailspage.css">
+	<link rel="stylesheet" href="./css/footer.css">
+	<script src="./jquery/jquery.min.js"></script>
+</head>
+<body>
+	<!-- 右侧边线条 -->
+	<div class="jdright"></div>
+	<!-- 右侧滑动栏 -->
+	<div class="ri_slide">
+		<ul>
+			<li>
+				<p><i></i></p>
+				<div>京东会员</div>
+			</li>
+			<li>
+				<p><i></i></p>
+				<div>京东会员</div>
+			</li>
+			<li>
+				<p><i></i></p>
+				<div>京东会员</div>
+			</li>
+			<li>
+				<p><i></i></p>
+				<div>京东会员</div>
+			</li>
+			<li>
+				<p><i></i></p>
+				<div>京东会员</div>
+			</li>
+			<li>
+				<p><i></i></p>
+				<div>京东会员</div>
+			</li>
+			<li>
+				<p><i></i></p>
+				<div>京东会员</div>
+			</li>
+			<li>
+				<p><i></i></p>
+				<div>京东会员</div>
+			</li>
+		</ul>
+	</div>
+	<!-- 右边底部栏 -->
+	<div class="ri_t_nav">
+	
+	
+	</div>
+	<!-- 快捷方式 -->
+	<div class="shortcut">
+		<span id="place">北京</span>
+		<ul class="ul_place">
+			<li>北京</li>
+			<li>上海</li>
+			<li>天津</li>
+			<li>重重庆</li>
+			<li>河北</li>
+			<li>山西</li>
+			<li>河南</li>
+			<li>辽宁</li>
+			<li>吉林</li>
+			<li>黑龙江</li>
+			<li>内蒙古</li>
+			<li>江苏</li>
+			<li>山东</li>
+			<li>安徽</li>
+			<li>浙江</li>
+			<li>福建</li>
+			<li>湖北</li>
+			<li>湖南</li>
+			<li>广东</li>
+			<li>广西</li>
+			<li>江西</li>
+			<li>四川</li>
+			<li>海南</li>
+			<li>贵州</li>
+			<li>云南</li>
+			<li>西藏</li>
+			<li>陕西</li>
+			<li>甘肃</li>
+			<li>青海</li>
+			<li>宁夏</li>
+			<li>新疆</li>
+			<li>港澳</li>
+			<li>台湾</li>
+			<li>钓鱼岛</li>
+			<li>海外</li>
+		</ul>
+		<ul class="ul_shortcut">
+			<li>
+				<a href="javascript:;">您好,请登录</a>
+				<a href="javascript:;">免费注册</a>
+			</li>
+			<li>|</li>
+			<li>我的订单</li>
+			<li>|</li>
+			<li class="ul_shortcut_my">我的京东</li>
+			<li>|</li>
+			<li>京东会员</li>
+			<li>|</li>
+			<li>企业采购</li>
+			<li>|</li>
+			<li class="pho_jd">手机京东</li>
+			<li>|</li>
+			<li class="weixin">关注京东</li>
+			<li>|</li>
+			<li class="ul_shortcut_ser">客户服务</li>
+			<li>|</li>
+			<li class="ul_shortcut_web">网站导航</li>
+			
+		</ul>
+		<!-- 我的京东的隐藏部分 -->
+		<div class="ul_shortcut_my_m">
+			<ul>
+				<li>待处理订单</li>
+				<li>消息</li>
+				<li>返修退换货</li>
+				<li>我的问答</li>
+				<li>降价商品</li>
+				<li>我的关注</li>
+			</ul>
+			<ul>
+				<li>我的京豆</li>
+				<li>我的优惠券</li>
+				<li>我的白条</li>
+				<li>我的理财</li>
+			</ul>	
+		</div>
+		<!-- 客户服务的隐藏部分 -->
+		<div class="ul_shortcut_ser_details">
+			<span>客户</span>
+			<ul class="ul_shortcut_ser_details_1">
+				<li>帮助中心</li>
+				<li>售后服务</li>
+				<li>在线客服</li>
+				<li>意见建议</li>
+				<li>电话客服</li>
+				<li>客服邮箱</li>
+				<li>金融咨询</li>
+				<li>售全球客服</li>
+			</ul>
+			<span>商户</span>
+			<ul class="ul_shortcut_ser_details_2">
+				<li>合作招商</li>
+				<li>京东商学院</li>
+				<li>商家后台</li>
+				<li>京麦工作台</li>
+				<li>商家帮助</li>
+				<li>规则平台</li>
+			</ul>
+		</div>
+		<!-- 网站导航隐藏的内容 -->
+		<div class="ul_shortcut_web_details">
+			<ul class="ul_shortcut_web_details_theme">
+			<span>特色主题</span>
+				<li>京东会员</li>
+				<li>京东会员</li>
+				<li>京东会员</li>
+				<li>京东会员</li>
+				<li>京东会员</li>
+				<li>京东会员</li>
+				<li>京东会员</li>
+				<li>京东会员</li>
+				<li>京东会员</li>
+				<li>京东会员</li>
+				<li>京东会员</li>
+				<li>京东会员</li>
+				<li>京东会员</li>
+				<li>京东会员</li>
+				<li>京东会员</li>
+				<li>京东会员</li>
+				<li>京东会员</li>
+				<li>京东会员</li>
+				<li>京东会员</li>
+				<li>京东会员</li>
+			</ul>
+			
+			<ul class="ul_shortcut_web_details_industry">
+			<span>行业频道</span>
+				<li>手机</li>
+				<li>手机</li>
+				<li>手机</li>
+				<li>手机</li>
+				<li>手机</li>
+				<li>手机</li>
+				<li>手机</li>
+				<li>手机</li>
+				<li>手机</li>
+				<li>手机</li>
+				<li>手机</li>
+				<li>手机</li>
+				<li>手机</li>
+				<li>手机</li>
+				<li>手机</li>
+			</ul>
+			
+			<ul class="ul_shortcut_web_details_service">
+			<span>生活服务</span>
+				<li>京东到家</li>
+				<li>京东到家</li>
+				<li>京东到家</li>
+				<li>京东到家</li>
+				<li>京东到家</li>
+				<li>京东到家</li>
+				<li>京东到家</li>
+				<li>京东到家</li>
+				<li>京东到家</li>
+				<li>京东到家</li>
+				<li>京东到家</li>
+				<li>京东到家</li>
+				<li>京东到家</li>
+				<li>京东到家</li>
+				<li>京东到家</li>
+			</ul>
+			
+			<ul class="ul_shortcut_web_details_more">
+			<span>更多精选</span>
+				<li>游戏社区</li>
+				<li>游戏社区</li>
+				<li>游戏社区</li>
+				<li>游戏社区</li>
+				<li>游戏社区</li>
+				<li>游戏社区</li>
+				<li>游戏社区</li>
+				<li>游戏社区</li>
+				<li>游戏社区</li>
+				<li>游戏社区</li>
+				<li>游戏社区</li>
+				<li>游戏社区</li>
+				<li>游戏社区</li>
+				<li>游戏社区</li>
+			</ul>
+		</div>
+		<div class="pho_jd_details">
+			<div class="pho_jd_details_top">
+				<img src="./image/jd1.png" alt="">
+				<a href="javascript:;">手机京东</a>
+				<p>新人专享大礼包</p>
+				<p>
+					<a href="javascript:;"></a>
+					<a href="javascript:;"></a>
+					<a href="javascript:;"></a>
+				</p>
+			</div>
+			<div class="pho_jd_details_top">
+				<img src="./image/jd2.jpg" alt="">
+				<a href="javascript:;">手机京东</a>
+				<p>新人专享大礼包</p>
+				<p>
+					<a href="javascript:;"></a>
+					<a href="javascript:;"></a>
+					<a href="javascript:;"></a>
+				</p>
+			</div>
+			<div class="pho_jd_details_top">
+				<img src="./image/jd3.jpg" alt="">
+				<a href="javascript:;">手机京东</a>
+				<p>新人专享大礼包</p>
+				<p>
+					<a href="javascript:;">1</a>
+					<a href="javascript:;">2</a>
+					<a href="javascript:;">3</a>
+				</p>
+			</div>
+		</div>
+	</div>
+	<!-- 头部 -->
+	<div class="header">
+		<!-- 京东logo -->
+		<div id="logo"><a href="javascript:;"></a></div>
+		
+		<div class="search">
+			<input type="text">
+			<b></b>
+			<i></i>
+		</div>
+		<div class="car">
+			<i></i>
+			<a href="javascript:;">我的购物车</a>
+			<b id="top-right">0</b>
+			<div id="car_details">
+				<i></i><span>购物车中还没有商品，赶紧选购吧！</span>
+			</div>
+		</div>
+		<!-- 搜索框下方的热词 -->
+		<div class="hotwords">
+			<a href="javascript:;">京东之家</a>
+			<a href="javascript:;">京东之家</a>
+			<a href="javascript:;">京东之家</a>
+			<a href="javascript:;">京东之家</a>
+		</div>
+		<div class="nav">
+			<ul>
+				<li>秒杀</li>
+				<li>秒杀</li>
+				<li>秒杀</li>
+				<li>秒杀</li>
+				<li>秒杀</li>
+				<li>秒杀</li>
+				<li>秒杀</li>
+				<li>秒杀</li>
+				<li>秒杀</li>
+				<li>秒杀</li>
+			</ul>
+		</div>
+		<div class="header_main">
+			&nbsp;全部商品分类<i></i>
+		</div>
+		<div class="main_more">
+			<div class="Navigation1">
+				<div class="Navigation1_left">
+					<ul>
+						<li>
+							<a href="javascript:;">电脑</a>
+							/
+							<a href="javascript:;">手机</a>
+						</li>
+						<li>
+							<a href="javascript:;">电脑</a>
+							/
+							<a href="javascript:;">手机</a>
+						</li>
+						<li>
+							<a href="javascript:;">电脑</a>
+							/
+							<a href="javascript:;">手机</a>
+						</li>
+						<li>
+							<a href="javascript:;">电脑</a>
+							/
+							<a href="javascript:;">手机</a>
+						</li>
+						<li>
+							<a href="javascript:;">电脑</a>
+							/
+							<a href="javascript:;">手机</a>
+						</li>
+						<li>
+							<a href="javascript:;">电脑</a>
+							/
+							<a href="javascript:;">手机</a>
+						</li>
+						<li>
+							<a href="javascript:;">电脑</a>
+							/
+							<a href="javascript:;">手机</a>
+						</li>
+						<li>
+							<a href="javascript:;">电脑</a>
+							/
+							<a href="javascript:;">手机</a>
+						</li>
+						<li>
+							<a href="javascript:;">电脑</a>
+							/
+							<a href="javascript:;">手机</a>
+						</li>
+						<li>
+							<a href="javascript:;">电脑</a>
+							/
+							<a href="javascript:;">手机</a>
+						</li>
+						<li>
+							<a href="javascript:;">电脑</a>
+							/
+							<a href="javascript:;">手机</a>
+						</li>
+						<li>
+							<a href="javascript:;">电脑</a>
+							/
+							<a href="javascript:;">手机</a>
+						</li>
+						<li>
+							<a href="javascript:;">电脑</a>
+							/
+							<a href="javascript:;">手机</a>
+						</li>
+						<li>
+							<a href="javascript:;">电脑</a>
+							/
+							<a href="javascript:;">手机</a>
+						</li>
+						<li>
+							<a href="javascript:;">电脑</a>
+							/
+							<a href="javascript:;">手机</a>
+						</li>
+						<li>
+							<a href="javascript:;">电脑</a>
+							/
+							<a href="javascript:;">手机</a>
+						</li>
+					</ul>
+					<!-- 手机栏 -->
+					<div class="pho_details">
+						<div class="pho_nav">
+							<ul>
+								<li>手机频道 ></li>
+								<li>手机频道 ></li>
+								<li>手机频道 ></li>
+								<li>手机频道 ></li>
+								<li>手机频道 ></li>
+								<li>手机频道 ></li>
+							</ul>
+						</div>
+						<div class="pho_nav_one cbox">
+							<span>手机通讯 ></span>
+							<ul>
+								<li>手机维修</li>
+								<li>手机维修</li>
+								<li>手机维修</li>
+								<li>手机维修</li>
+								<li>手机维修</li>
+								<li>手机维修</li>
+							</ul>
+						</div>
+						<div class="pho_nav_two cbox">
+							<span>手机通讯 ></span>
+							<ul>
+								<li>手机维修</li>
+								<li>手机维修</li>
+								<li>手机维修</li>
+								<li>手机维修</li>
+								<li>手机维修</li>
+								<li>手机维修</li>
+							</ul>
+						</div>
+						<div class="pho_nav_three cbox">
+							<span>手机通讯 ></span>
+							<ul>
+								<li>手机维修</li>
+								<li>手机维修</li>
+								<li>手机维修</li>
+								<li>手机维修</li>
+								<li>手机维修</li>
+								<li>手机维修</li>
+
+							</ul>
+						</div>
+						<div class="pho_nav_four cbox">
+							<span>手机通讯 ></span>
+							<ul>
+								<li>手机维修</li>
+								<li>手机维修</li>
+								<li>手机维修</li>
+								<li>手机维修</li>
+								<li>手机维修</li>
+								<li>手机维修</li>
+							</ul>
+						</div>
+						<div class="pho_nav_five cbox">
+							<span>手机通讯 ></span>
+							<ul>
+								<li>手机维修</li>
+								<li>手机维修</li>
+								<li>手机维修</li>
+								<li>手机维修</li>
+								<li>手机维修</li>
+								<li>手机维修</li>
+							</ul>
+						</div>
+						<div class="pho_nav_six cbox">
+							<span>手机通讯 ></span>
+							<ul>
+								<li>手机维修</li>
+								<li>手机维修</li>
+								<li>手机维修</li>
+								<li>手机维修</li>
+								<li>手机维修</li>
+								<li>手机维修</li>
+							</ul>
+						</div>
+						<div class="pho_nav_seven cbox">
+							<span>手机通讯 ></span>
+							<ul>
+								<li>手机维修</li>
+								<li>手机维修</li>
+								<li>手机维修</li>
+								<li>手机维修</li>
+								<li>手机维修</li>
+								<li>手机维修</li>
+							</ul>
+						</div>
+						<div class="pho_pic">
+							<img src="./image/ap.jpg" alt="">
+							<img src="./image/op.jpg" alt="">
+							<img src="./image/ho.jpg" alt="">
+							<img src="./image/mi.jpg" alt="">
+							<img src="./image/ca.jpg" alt="">
+							<img src="./image/ji.png" alt="">
+							<img src="./image/ph.jpg" alt="">
+							<img src="./image/te.jpg" alt="">
+							<img id="pho_new" src="./image/new.jpg" alt="">
+							<img id="pho_cool" src="./image/cool.jpg" alt="">
+						</div>
+					</div>
+				</div>
+		<div class="more">
+			<div class="one1"></div>
+		</div>
+	</div>
+	</div>
+	</div>
+	<!-- 商品详情 -->
+	<div class="details">
+		<!-- 商品标题 -->
+		<div class="details_til">
+			<!-- 标题的左边 -->
+			<ul>
+				<li>手机</li>
+				<li>></li>
+				<li>手机通讯</li>
+				<li>></li>
+				<li>手机</li>
+				<li>></li>
+				<li>华为</li>
+				<li>></li>
+				<li>华为荣耀9</li>
+			</ul>
+			<!-- 标题的右边 -->
+			<div class="til_rig">
+				<ul>
+					<li><i>JD</i><i>自营</i>荣耀官方旗舰店</li>
+					<li><i></i>联系供应商</li>
+					<li><i></i>JIMI</li>
+					<li><i></i>关注店铺</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 标题内容 -->
+		<div class="details_mai">
+			<!-- 放大的图片 -->
+			<div class="big_pic">
+				<img src="./image/big1.jpg" alt="">
+				<img src="./image/big2.jpg" alt="">
+				<img src="./image/big3.jpg" alt="">
+				<img src="./image/big4.jpg" alt="">
+				<img src="./image/big5.jpg" alt="">
+			</div>
+			<!-- 正常的图片 -->
+			<div class="details_pic">
+				<img src="./image/fd1.jpg" alt="">
+				<img src="./image/fd2.jpg" alt="">
+				<img src="./image/fd3.jpg" alt="">
+				<img src="./image/fd4.jpg" alt="">
+				<img src="./image/fd5.jpg" alt="">
+			</div>
+			<div class="details_sml">
+				<div id="sml_left"></div>
+				<ul>
+					<li><img src="./image/small1.jpg" alt=""></li>
+					<li><img src="./image/small2.jpg" alt=""></li>
+					<li><img src="./image/small3.jpg" alt=""></li> 
+					<li><img src="./image/small4.jpg" alt=""></li>
+					<li><img src="./image/small5.jpg" alt=""></li>
+				</ul>
+				<div id="sml_right"></div>
+			</div>
+			<div class="details_wrap">
+				<div class="sku-name">
+               	  荣耀 V9 全网通 高配版 6GB+64GB 幻夜黑 移动联通电信4G手机双卡双待
+                </div>
+                <div class="item_hide">
+                 	下单立减100！领券再减200！成交价2699！纤薄机身，2K屏，双镜头，强劲芯片，你想要的快
+                </div>
+                <div class="item_hide_i">
+					选择【移动优惠购】不换号，购新机，还可送至多285元话费！
+                </div>
+                <!-- 手机价格 -->
+                <div class="pho_pirce">
+					<div class="pho_pirce_top">
+						京东价
+						<span>￥</span>
+						<span>2990.00</span>
+						<a href="javascript:;">降价通知</a>
+					</div>
+					<div class="pho_pirce_bot">
+						<span id="pho_pirce_bot_one">促销</span>
+						<span id="pho_pirce_bot_two">赠品</span>
+						<span id="pho_pirce_bot_three">换购</span>
+						<span id="pho_pirce_bot_four">满减</span>
+						<i></i>
+						<p>x1</p>
+						<b>(赠完即止)</b>
+					</div>
+                </div>
+                <div class="summary-support">
+                	增值业务
+                	<a href="javascript:;"><i></i><span>以旧换新，闲置回收</span></a>
+                	<a href="javascript:;"><i></i><span>闲置回收</span></a>
+                	<a href="javascript:;"><i></i><span>以旧换新</span></a>
+                </div>
+                <div class="summary-stock">
+                	<p>配&nbsp;&nbsp;送&nbsp;&nbsp;至</p>
+                	<span>上海<i></i></span>
+                	<b>支持</b>
+                </div>
+                <div class="choose-attr-1 choose_box">
+                	<span>选择颜色</span>
+                	<ul>
+                		<li>
+							<img src="./image/blue.jpg" alt="">
+							<a href="javascript:;">极光蓝</a>
+                		</li>
+                		<li>
+							<img src="./image/gold.jpg" alt="">
+							<a href="javascript:;">铂光金</a>
+                		</li>
+                		<li>
+							<img src="./image/black.jpg" alt="">
+							<a href="javascript:;">幻夜黑</a>
+                		</li>
+                		<li>
+							<img src="./image/res.jpg" alt="">
+							<a href="javascript:;">魅焰红</a>
+                		</li>
+                	</ul>
+                </div>
+                <div class="choose-attr-2  choose_box">
+                	<span>选择版本</span>
+					<ul>
+                		<li>全网通(6GB 64GB)</li>
+                		<li>全网通(6GB 64GB)</li>
+                		<li>全网通(6GB 64GB)</li>
+                	</ul>
+                </div>
+                <div class="choose-type  choose_box">
+                	<span>购买方式</span>
+					<ul>
+                		<li>官方标配</li>
+                		<li>官方标配</li>
+                		<li>官方标配</li>
+                		<li>官方标配</li>
+                	</ul>
+                </div>
+ 				<!-- 选择买多少台 -->
+            	<div class="buy-num">
+					<input id="buy_how" type="text" value="1">
+					<a href="javascript:;">-</a>
+					<a href="javascript:;">+</a>
+            	</div>
+            	<div class="add">加入购物车</div>
+            	<div class="buy">立即购买</div>
+            	<div class="summary-tips">
+            		<p>温馨提示</p>
+            		<span>·支持7天无理由退货</span>
+            	</div>
+			</div>
+			<!-- 店家关注 -->
+			<div class="left-btns">
+				<ul>
+					<li><i></i><span>关注</span></li>
+					<li><i></i><span>分享</span></li>
+					<li><i></i><span>对比</span></li>
+				</ul>
+				<a href="javascript:;">举报</a>
+			</div>
+		</div>
+	</div>
+	<!-- 商家商品的具体介绍和客户评论 -->
+	<div class="shop_all">
+		<!-- 左边 -->
+		<div class="aside">
+			<!-- 店家 -->
+			<div class="store">
+				<div class="store_top">
+					&nbsp;荣耀官方旗舰店
+					<i></i>
+				</div>
+				<div class="store_bot">
+					<ul>
+						<li>
+							<i></i>
+							<span>进店逛逛</span>
+						</li>
+						<li>
+							<i></i>
+							<span>关注店铺</span>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!-- 关于 -->
+			<div class="about">
+				<div class="about_top">
+					关于手机，你可能在找
+				</div>
+				<div class="about_main">
+					<ul>
+						<li>安卓（Android）</li>
+						<li>5.6英寸及以上</li>
+						<li>指纹识别</li>
+						<li>快速充电</li>
+						<li>快速充电</li>
+						<li>快速充电</li>
+						<li>快速充电</li>
+						<li>快速充电</li>
+						<li>快速充电</li>
+						<li>移动4G/联通4G/电信4G</li>
+						<li>快速充电</li>
+						<li>快速充电</li>
+					</ul>
+				</div>
+			</div>
+			<!-- 达人挑选 -->
+			<div class="choose">
+				<div class="choose_top">达人选购</div>
+				<div class="choose_main">
+					<ul>
+						<li>
+							<img src="./image/choose1.jpg" alt="">
+							<p>荣耀 V9 全网通 高配版 6GB+64GB 极光蓝 移动联通电信4G手机 双卡双待</p>
+							<b>￥2998.00</b>
+						</li>
+						<li>
+							<img src="./image/choose1.jpg" alt="">
+							<p>荣耀 V9 全网通 高配版 6GB+64GB 极光蓝 移动联通电信4G手机 双卡双待</p>
+							<b>￥2998.00</b>
+						</li>
+						<li>
+							<img src="./image/choose1.jpg" alt="">
+							<p>荣耀 V9 全网通 高配版 6GB+64GB 极光蓝 移动联通电信4G手机 双卡双待</p>
+							<b>￥2998.00</b>
+						</li>
+						<li>
+							<img src="./image/choose1.jpg" alt="">
+							<p>荣耀 V9 全网通 高配版 6GB+64GB 极光蓝 移动联通电信4G手机 双卡双待</p>
+							<b>￥2998.00</b>
+						</li>
+						<li>
+							<img src="./image/choose1.jpg" alt="">
+							<p>荣耀 V9 全网通 高配版 6GB+64GB 极光蓝 移动联通电信4G手机 双卡双待</p>
+							<b>￥2998.00</b>
+						</li>
+						<li>
+							<img src="./image/choose1.jpg" alt="">
+							<p>荣耀 V9 全网通 高配版 6GB+64GB 极光蓝 移动联通电信4G手机 双卡双待</p>
+							<b>￥2998.00</b>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!-- 热销榜 -->
+			<div class="hot">
+				<div class="hot_top">
+					手机热销榜
+				</div>
+				<div class="hot_mid">
+					<ul>
+						<li>同价位</li>
+						<li>同品牌</li>
+						<li>总排行</li>
+					</ul>
+				</div>
+				<div class="hot_main">
+					<ul>
+						<li>
+							<img src="./image/hot1.jpg" alt="">
+							<span>华为荣耀9</span>
+							<b>￥2999.00</b>
+						</li>
+						<li>
+							<img src="./image/hot1.jpg" alt="">
+							<span>华为荣耀9</span>
+							<b>￥2999.00</b>
+						</li>
+						<li>
+							<img src="./image/hot1.jpg" alt="">
+							<span>华为荣耀9</span>
+							<b>￥2999.00</b>
+						</li>
+						<li>
+							<img src="./image/hot1.jpg" alt="">
+							<span>华为荣耀9</span>
+							<b>￥2999.00</b>
+						</li>
+						<li>
+							<img src="./image/hot1.jpg" alt="">
+							<span>华为荣耀9</span>
+							<b>￥2999.00</b>
+						</li>
+						<li>
+							<img src="./image/hot1.jpg" alt="">
+							<span>华为荣耀9</span>
+							<b>￥2999.00</b>
+						</li>
+						<li>
+							<img src="./image/hot1.jpg" alt="">
+							<span>华为荣耀9</span>
+							<b>￥2999.00</b>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!-- 右边 -->
+		<!-- 当滚动到一定位置时商品栏固定不动 -->
+		<div class="shop_detail_top" id="top_fix">
+				<ul>
+					<li>商品介绍</li>
+					<li>规格与包装</li>
+					<li>售后保障</li>
+					<li>商品评价(20万+)</li>
+					<li>手机社区</li>
+					<a href="javascript:;">加入购物车</a>
+				</ul>
+			</div>
+		<div class="shop_detail">
+			<!-- 商品介绍 -->
+			<div class="shop_detail_top">
+				<ul>
+					<li>商品介绍</li>
+					<li>规格与包装</li>
+					<li>售后保障</li>
+					<li>商品评价(20万+)</li>
+					<li>手机社区</li>
+					<a href="javascript:;">加入购物车</a>
+				</ul>
+			</div>
+			<!-- 图文介绍 -->
+			<div class="shop_detail_main">
+				<ul class="main_w">
+					<li>
+						<img src="./image/param1.png" alt="">
+						<p id="ipi">分辨率：2560×1440（Quad HD/2K
+						</p>
+					</li>
+					<li>
+						<img src="./image/param2.png" alt="">
+						<p>后置摄像头：双1200万像素</p>
+						<p>前置摄像头：800万像素</p>
+					</li>
+					<li>
+						<img src="./image/param3.png" alt="">
+						<p>核      数：八核 + 微智核i6</p>
+						<p>频      率：4 x CortexA53 1.8GHz + 4 x CortexA73 2.4GHz</p>
+					</li>
+				</ul>
+				<span>品牌： <a href="javascript:;">华为(HUAWEI)</a></span>
+				<div class="shop_detail_main_m">
+					<ul>
+						<li>商品名称：华为荣耀V9</li>
+						<li>商品名称：华为荣耀V9</li>
+						<li>商品名称：华为荣耀V9</li>
+						<li>商品名称：华为荣耀V9</li>
+					</ul>
+					<ul>
+						<li>
+							商品名称：华为荣耀V9
+						</li>
+						<li>
+							商品名称：华为荣耀V9
+						</li>
+						<li>
+							商品名称：华为荣耀V9
+						</li>
+						<li>
+							商品名称：华为荣耀V9
+						</li>
+					</ul>
+					<ul>
+						<li>
+							商品名称：华为荣耀V9
+						</li>
+						<li>
+							商品名称：华为荣耀V9
+						</li>
+						<li>
+							商品名称：华为荣耀V9
+						</li>
+						<li>
+							商品名称：华为荣耀V9
+						</li>
+					</ul>
+					<ul>
+						<li>
+							商品名称：华为荣耀V9
+						</li>
+						<li>
+							商品名称：华为荣耀V9
+						</li>
+						<li>
+							商品名称：华为荣耀V9
+						</li>
+						<li>
+							商品名称：华为荣耀V9
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!-- 图片 -->
+			<div class="main_pic">
+				<img src="image/pic1.jpg" alt="">
+				<img src="image/pic2.jpg" alt="">
+				<img src="image/pic3.jpg" alt="">
+				<img src="image/pic4.jpg" alt="">
+				<img src="image/pic5.jpg" alt="">
+				<img src="image/pic6.jpg" alt="">
+				<img src="image/pic7.jpg" alt="">
+				<img src="image/pic8.jpg" alt="">
+				<img src="image/pic9.jpg" alt="">
+				<img src="image/pic10.jpg" alt="">
+				<img src="image/pic11.jpg" alt="">
+				<img src="image/pic12.jpg" alt="">
+				<img src="image/pic13.jpg" alt="">
+				<img src="image/pic14.jpg" alt="">
+			</div>
+			<!-- 商品评价 -->
+			<div class="shop_detail_comment">
+				<div class="comment_top">
+					&nbsp;商品评价
+				</div>
+				<div class="comment_mid">
+					<div class="comment_sc">
+						<b>好评度</b>
+						<span>96%</span>
+					</div>
+					<ul>
+						<li>就是快(2655)</li>
+						<li>就是快(2655)</li>
+						<li>就是快(2655)</li>
+						<li>就是快(2655)</li>
+						<li>就是快(2655)</li>
+						<li>就是快(2655)</li>
+						<li>就是快(2655)</li>
+						<li>就是快(2655)</li>
+						<li>就是快(2655)</li>
+						<li>就是快(2655)</li>
+						<li>就是快(2655)</li>
+						<li>就是快(2655)</li>
+						<li>就是快(2655)</li>
+					</ul>
+				</div>
+				<!-- 全部评价 -->
+				<div class="all_com_top">
+					<ul>
+						<li>全部评价(20万)</li>
+						<li>晒图(10000)</li>
+						<li>晒图(10000)</li>
+						<li>晒图(10000)</li>
+						<li>晒图(10000)</li>
+						<li>晒图(10000)</li>
+						<li><input type="checkbox">只看当前商品评价</li>
+					</ul>
+					<div class="all_com_rig">
+						<span>推荐排序</span>
+						<i></i>
+					</div>
+				</div>
+				<!-- 用户的评价 -->
+				<div class="all_com_main">
+					<div class="cor_name">
+						<span>
+							<i></i>
+							j***伟
+						</span>
+						<span>砖石会员</span>
+					</div>
+					<div class="cor_wri">
+						<div class="cor_love"></div>
+						<div class="cor_write">
+							超级喜欢，好酷的手机，手感很好，快递给力，其他功能还在研究，别忘了送自拍杆哦，哈哈
+						</div>
+						<ul class="cor_pic">
+							<li>
+								<img src="./image/corw1.jpg" alt="">
+							</li>
+							<li>
+								<img src="./image/corw2.jpg" alt="">
+							</li>
+							<li>
+								<img src="./image/corw3.jpg" alt="">
+							</li>
+							<li>
+								<img src="./image/corw4.jpg" alt="">
+							</li>
+						</ul>
+						<ul class="cor_buy">
+							<li>铂光金</li>
+							<li>全网通（6GB 64GB）</li>
+							<li>官方标配</li>
+							<li>2017-02-28 17:12</li>
+						</ul>
+						<ul class="other">
+							<li>举报</li>
+							<li><i></i>2263</li>
+							<li><i></i>1580</li>
+						</ul>
+					</div>
+					<!-- 回复 -->
+					<div class="reto">
+						<dl class="recomment">
+							<dt>华为终端服务_潘森 回复：</dt>
+							<dd>您好，感谢您选择我们店铺的宝贝。在物流方面，我们为花粉们选择最快最优质的物流，让您第一时间拿到欣喜的爱机再也不用等待。荣耀V9精巧的工艺架构带来手机的纤薄，金属的四种配色更显时尚。强劲的配置承载了人工智能算法优化的EMUI 5.0操作系统，整机运行更快速，拍摄、看视频、玩游戏等都更畅快。值得您拥有！另外，赠品会随您的商品一起配送给您，请您仔细核对收到的商品与购物清单是否一致，若不一致，请您及时联系京东客服。后续若还有疑问，随时回来咨询我们哦。</dd>
+						</dl>
+						<div class="retim">
+							2017.03.04
+						</div>
+					</div>
+				</div>
+				<div class="all_com_main">
+					<div class="cor_name">
+						<span>
+							<i></i>
+							j***伟
+						</span>
+						<span>砖石会员</span>
+					</div>
+					<div class="cor_wri">
+						<div class="cor_love"></div>
+						<div class="cor_write">
+							超级喜欢，好酷的手机，手感很好，快递给力，其他功能还在研究，别忘了送自拍杆哦，哈哈
+						</div>
+						<ul class="cor_pic">
+							<li>
+								<img src="./image/corw1.jpg" alt="">
+							</li>
+							<li>
+								<img src="./image/corw2.jpg" alt="">
+							</li>
+							<li>
+								<img src="./image/corw3.jpg" alt="">
+							</li>
+							<li>
+								<img src="./image/corw4.jpg" alt="">
+							</li>
+						</ul>
+						<ul class="cor_buy">
+							<li>铂光金</li>
+							<li>全网通（6GB 64GB）</li>
+							<li>官方标配</li>
+							<li>2017-02-28 17:12</li>
+						</ul>
+						<ul class="other">
+							<li>举报</li>
+							<li><i></i>2263</li>
+							<li><i></i>1580</li>
+						</ul>
+					</div>
+					<!-- 回复 -->
+					<div class="reto">
+						<dl class="recomment">
+							<dt>华为终端服务_潘森 回复：</dt>
+							<dd>您好，感谢您选择我们店铺的宝贝。在物流方面，我们为花粉们选择最快最优质的物流，让您第一时间拿到欣喜的爱机再也不用等待。荣耀V9精巧的工艺架构带来手机的纤薄，金属的四种配色更显时尚。强劲的配置承载了人工智能算法优化的EMUI 5.0操作系统，整机运行更快速，拍摄、看视频、玩游戏等都更畅快。值得您拥有！另外，赠品会随您的商品一起配送给您，请您仔细核对收到的商品与购物清单是否一致，若不一致，请您及时联系京东客服。后续若还有疑问，随时回来咨询我们哦。</dd>
+						</dl>
+						<div class="retim">
+							2017.03.04
+						</div>
+					</div>
+				</div>
+				<div class="all_com_main">
+					<div class="cor_name">
+						<span>
+							<i></i>
+							j***伟
+						</span>
+						<span>砖石会员</span>
+					</div>
+					<div class="cor_wri">
+						<div class="cor_love"></div>
+						<div class="cor_write">
+							超级喜欢，好酷的手机，手感很好，快递给力，其他功能还在研究，别忘了送自拍杆哦，哈哈
+						</div>
+						<ul class="cor_pic">
+							<li>
+								<img src="./image/corw1.jpg" alt="">
+							</li>
+							<li>
+								<img src="./image/corw2.jpg" alt="">
+							</li>
+							<li>
+								<img src="./image/corw3.jpg" alt="">
+							</li>
+							<li>
+								<img src="./image/corw4.jpg" alt="">
+							</li>
+						</ul>
+						<ul class="cor_buy">
+							<li>铂光金</li>
+							<li>全网通（6GB 64GB）</li>
+							<li>官方标配</li>
+							<li>2017-02-28 17:12</li>
+						</ul>
+						<ul class="other">
+							<li>举报</li>
+							<li><i></i>2263</li>
+							<li><i></i>1580</li>
+						</ul>
+					</div>
+					<!-- 回复 -->
+					<div class="reto">
+						<dl class="recomment">
+							<dt>华为终端服务_潘森 回复：</dt>
+							<dd>您好，感谢您选择我们店铺的宝贝。在物流方面，我们为花粉们选择最快最优质的物流，让您第一时间拿到欣喜的爱机再也不用等待。荣耀V9精巧的工艺架构带来手机的纤薄，金属的四种配色更显时尚。强劲的配置承载了人工智能算法优化的EMUI 5.0操作系统，整机运行更快速，拍摄、看视频、玩游戏等都更畅快。值得您拥有！另外，赠品会随您的商品一起配送给您，请您仔细核对收到的商品与购物清单是否一致，若不一致，请您及时联系京东客服。后续若还有疑问，随时回来咨询我们哦。</dd>
+						</dl>
+						<div class="retim">
+							2017.03.04
+						</div>
+					</div>
+				</div>
+				<div class="all_com_main">
+					<div class="cor_name">
+						<span>
+							<i></i>
+							j***伟
+						</span>
+						<span>砖石会员</span>
+					</div>
+					<div class="cor_wri">
+						<div class="cor_love"></div>
+						<div class="cor_write">
+							超级喜欢，好酷的手机，手感很好，快递给力，其他功能还在研究，别忘了送自拍杆哦，哈哈
+						</div>
+						<ul class="cor_pic">
+							<li>
+								<img src="./image/corw1.jpg" alt="">
+							</li>
+							<li>
+								<img src="./image/corw2.jpg" alt="">
+							</li>
+							<li>
+								<img src="./image/corw3.jpg" alt="">
+							</li>
+							<li>
+								<img src="./image/corw4.jpg" alt="">
+							</li>
+						</ul>
+						<ul class="cor_buy">
+							<li>铂光金</li>
+							<li>全网通（6GB 64GB）</li>
+							<li>官方标配</li>
+							<li>2017-02-28 17:12</li>
+						</ul>
+						<ul class="other">
+							<li>举报</li>
+							<li><i></i>2263</li>
+							<li><i></i>1580</li>
+						</ul>
+					</div>
+					<!-- 回复 -->
+					<div class="reto">
+						<dl class="recomment">
+							<dt>华为终端服务_潘森 回复：</dt>
+							<dd>您好，感谢您选择我们店铺的宝贝。在物流方面，我们为花粉们选择最快最优质的物流，让您第一时间拿到欣喜的爱机再也不用等待。荣耀V9精巧的工艺架构带来手机的纤薄，金属的四种配色更显时尚。强劲的配置承载了人工智能算法优化的EMUI 5.0操作系统，整机运行更快速，拍摄、看视频、玩游戏等都更畅快。值得您拥有！另外，赠品会随您的商品一起配送给您，请您仔细核对收到的商品与购物清单是否一致，若不一致，请您及时联系京东客服。后续若还有疑问，随时回来咨询我们哦。</dd>
+						</dl>
+						<div class="retim">
+							2017.03.04
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+
+	</div>
+	<!-- 页脚 -->
+	<div class="footer">
+		<div class="footer_top">
+			<ul>
+				<li><i></i><p>品类齐全，轻松购物</p></li>
+				<li><i></i><p>品类齐全，轻松购物</p></li>
+				<li><i></i><p>品类齐全，轻松购物</p></li>
+				<li><i></i><p>品类齐全，轻松购物</p></li>
+			</ul>
+		</div>
+		<div class="footer_main">
+			<div class="shop footer_box">
+				<h5>购物指南</h5>
+				<ul>
+					<li>购物流程</li>
+					<li>购物流程</li>
+					<li>购物流程</li>
+					<li>购物流程</li>
+					<li>购物流程</li>
+					<li>购物流程</li>
+				</ul>
+			</div>
+			<div class="send footer_box">
+				<h5>购物指南</h5>
+				<ul>
+					<li>购物流程</li>
+					<li>购物流程</li>
+					<li>购物流程</li>
+					<li>购物流程</li>
+					<li>购物流程</li>
+					<li>购物流程</li>
+				</ul>
+			</div>
+			<div class="pay footer_box">
+				<h5>购物指南</h5>
+				<ul>
+					<li>购物流程</li>
+					<li>购物流程</li>
+					<li>购物流程</li>
+					<li>购物流程</li>
+					<li>购物流程</li>
+					<li>购物流程</li>
+				</ul>
+			</div>
+			<div class="service footer_box">
+				<h5>购物指南</h5>
+				<ul>
+					<li>购物流程</li>
+					<li>购物流程</li>
+					<li>购物流程</li>
+					<li>购物流程</li>
+					<li>购物流程</li>
+					<li>购物流程</li>
+				</ul>
+			</div>
+			<div class="advantage footer_box">
+				<h5>购物指南</h5>
+				<ul>
+					<li>购物流程</li>
+					<li>购物流程</li>
+					<li>购物流程</li>
+					<li>购物流程</li>
+					<li>购物流程</li>
+					<li>购物流程</li>
+				</ul></div>
+			<div class="Range">
+				<h5>京东自营覆盖区县</h5>
+				<p>京东已向全国2661个区县提供自营配送服务，支持货到付款、POS机刷卡和售后上门服务。</p>
+				<p><a href="javascript:;">查看详情</a></p>
+			</div>
+		</div>
+		<div class="footer_bot">
+			<p>
+				<a href="javascript:;">联系我们</a>|
+				<a href="javascript:;">联系我们</a>|
+				<a href="javascript:;">联系我们</a>|
+				<a href="javascript:;">联系我们</a>|
+				<a href="javascript:;">联系我们</a>|
+				<a href="javascript:;">联系我们</a>|
+				<a href="javascript:;">联系我们</a>|
+				<a href="javascript:;">联系我们</a>|
+				<a href="javascript:;">联系我们</a>|
+				<a href="javascript:;">联系我们</a>|
+				<a href="javascript:;">联系我们</a>|
+				<a href="javascript:;">联系我们</a>|
+				<a href="javascript:;">联系我们</a>|
+				<a href="javascript:;">联系我们</a>|
+				<a href="javascript:;">联系我们</a>
+			</p>
+			<p>
+				<a href="javascript:;">京公网安备 11000002000088号</a>|
+				<a href="javascript:;">京ICP证070359号</a>|
+				<a href="javascript:;">互联网药品信息服务资格证编号(京)-经营性-2014-0008</a>|
+				<a href="javascript:;">新出发京零 字第大120007号</a>
+			</p>
+			<p>
+				<a href="javascript:;">互联网出版许可证编号新出网证(京)字150号</a>|
+				<a href="javascript:;">出版物经营许可证</a>|
+				<a href="javascript:;">网络文化经营许可证京网文[2014]2148-348号</a>|
+				<a href="javascript:;">违法和不良信息举报电话：4006561155</a>
+			</p>
+			<p>
+				<a href="javascript:;">Copyright © 2004 - 2017  京东JD.com 版权所有</a>|
+				<a href="javascript:;">消费者维权热线：4006067733经营证照</a>
+			</p>
+			<p>
+				<a href="javascript:;">京东旗下网站：京东支付</a>|
+				<a href="javascript:;">京东云</a>
+			</p>
+		</div>
+		<div class="footer_bot_pic">
+			<ul>
+				<li>
+					<img src="./image/25.png" alt="">
+					<a href="javascript:;">深圳网络警察报警平台</a>
+				</li>
+				<li>
+					<img src="./image/26.png" alt="">
+					<a href="javascript:;">公共信息安全网络监察</a>
+				</li>
+				<li>
+					<img src="./image/27.png" alt="">
+					<a href="javascript:;">不良信息举报中心</a>
+				</li>
+				<li>
+					<img src="" alt="">
+					<a href="javascript:;">不良信息举报中心</a>
+				</li>
+				<li>
+					<img src="./image/28.png" alt="">
+					<a href="javascript:;">不良信息举报中心</a>
+				</li>
+				<li>
+					<img src="./image/29.png" alt="">
+					<a href="javascript:;">不良信息举报中心</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</body>
+<script src="./js/detailspage.js"></script>
+</html>
